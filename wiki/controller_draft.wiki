@@ -41,4 +41,4 @@ class ShopController extends RController {
 {{{
 $this->display();
 }}}
-就会自动引入这个文件。
+就会自动引入这个文件，不支持自动调用。
