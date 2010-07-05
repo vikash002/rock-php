@@ -31,6 +31,12 @@ class ShopController extends RController {
 支持的事件
  * onBefore()
 
+= 动作返回值 =
+
+ * 如果返回NULL，显示默认的视图
+ * 如果返回一个标量，则不显示视图
+ * 如果返回一个RView的子类，则调用该对象的display()方法
+
 = 视图 =
 
 如果 _views/shop/buy.php_ 存在的话，就会在动作执行之后自动调用
