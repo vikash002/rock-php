@@ -9,8 +9,8 @@
 URL暂不支持PATH_INFO的解析，而是使用参数的方式：
 
 {{{
-http://myapp/index.php?controller=shop&action=buy&type_id=1
-http://myapp/index.php?controller=user.info&action=modify
+http://myapp/index.php?action=shop.buy&type_id=1
+http://myapp/index.php?action=user.info.modify
 }}}
 
 = 控制器 =
