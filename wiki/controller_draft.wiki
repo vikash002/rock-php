@@ -33,4 +33,4 @@ class ShopController extends RController {
 
 = 视图 =
 
-如果_views/shop/buy.php_存在的话，就会在动作执行之后自动调用
+如果 _views/shop/buy.php_ 存在的话，就会在动作执行之后自动调用
