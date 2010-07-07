@@ -13,6 +13,7 @@
 每个用户在数据库（可能是MongoDB）rock_version表中保存以下信息：
 {{{
 array (
+  "uid" => 907111,
   "user" => 23,
   "message" => 5,
   "log" => 317,
@@ -27,6 +28,8 @@ $db = RDb::dbWithUid(1);
 ...
 $db->updateVersion("log");
 }}}
+
+全局信息的用户UID为0。
 
 == 计算KEY ==
 
@@ -63,3 +66,13 @@ function keyWithVersion($key, $type) {
 == refresh参数 ==
 
 有些数据可以由客户端（比如Flash）来决定要不要刷新，使用的参数可以是refresh和time两个，前者决定是否刷新，后者用来记录上次刷新的时间，如果超过某个时间长度，我们也可以主动刷新。
+
+= 问题集 =
+
+*版本控制的粒度不可能太小*
+比如日志列表和单个日志，可以动态增加新的版本，比如：
+{{{
+log.1 = 23,
+log.10 = 52,
+...
+}}}
