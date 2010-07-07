@@ -49,7 +49,14 @@ function keyWithVersion($key, $type) {
  * APC缓存
  * 数据库缓存
 
+== 读取缓存 ==
+
 试图从缓存中读取数据，也是按照上面的顺序的。
+
+{{{
+function get($key, $miss = null, $apc = true, $timeout = -1);
+}}}
+
 
 = 客户端 =
 
