@@ -54,13 +54,13 @@ function keyWithVersion($key, $type) {
 试图从缓存中读取数据，也是按照上面的顺序的。
 
 {{{
-function read($key, $miss = null, $apc = true, $ttl = -1);
+function read($type, $key, $miss = null, $apc = true, $ttl = -1);
 }}}
 
 == 写缓存 ==
 
 {{{
-function write($key, $value, $apc = true, $ttl = 1209600, $tags = null); 
+function write($type, $key, $value, $apc = true, $ttl = 1209600, $tags = null); 
 }}}
 
 
