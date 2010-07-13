@@ -10,19 +10,16 @@ It's a MongoDB management tool.
 <img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
 
 
+<img src="http://ifphp.cn/rockmongo/screenshots/1.png" width="100%"/>
 
-http://ifphp.cn/rockmongo/screenshots/1.png
+<img src="http://ifphp.cn/rockmongo/screenshots/2.png" width="100%"/>
 
-http://ifphp.cn/rockmongo/screenshots/2.png
+<img src="http://ifphp.cn/rockmongo/screenshots/3.png" width="100%"/>
 
-http://ifphp.cn/rockmongo/screenshots/3.png
+<img src="http://ifphp.cn/rockmongo/screenshots/4.png" width="100%"/>
 
-http://ifphp.cn/rockmongo/screenshots/4.png
+<img src="http://ifphp.cn/rockmongo/screenshots/5.png" width="100%"/>
 
-http://ifphp.cn/rockmongo/screenshots/5.png
+<img src="http://ifphp.cn/rockmongo/screenshots/6.png" width="100%"/>
 
-
-http://ifphp.cn/rockmongo/screenshots/6.png
-
-
-http://ifphp.cn/rockmongo/screenshots/7.png
+<img src="http://ifphp.cn/rockmongo/screenshots/7.png" width="100%"/>
