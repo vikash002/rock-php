@@ -17,6 +17,7 @@ Main features:
  * clear collection
  * remove and change (only work in higher php_mongo version)  criteria matched rows
  * view collection statistics
+ * more features will be coming soon!
 
 http://ifphp.cn/rockmongo/screenshots/show.png
 
