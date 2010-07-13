@@ -1,4 +1,4 @@
-#summary About rockmongo
+#summary rockmongo, a MongoDB management tool, written in PHP5
 
 <wiki:toc/>
 
@@ -9,7 +9,7 @@ It's a MongoDB management tool.
 = Installation ==
  
  # [http://code.google.com/p/rock-php/downloads/list download] the package
- # unzip the file
+ # unzip the files to your disk, under your site root
  # open the index.php with your convenient editor, change host, port, admins and so on to yours
  # visit the index.php in your browser, for example: http://localhost/rockmongo/index.php
  # play with your MongoDBs!
@@ -17,6 +17,10 @@ It's a MongoDB management tool.
 = Download =
 
 You can download the package at [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list].
+
+= Bugs & Issues =
+
+Please feel free to report any bugs and issues to me, my email is: iwind.liu@gmail.com .
 
 = Screenshots ==
 
