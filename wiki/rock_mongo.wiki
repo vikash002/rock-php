@@ -4,7 +4,11 @@
 
 = Introduction =
 
-It's a MongoDB management tool.
+It's a MongoDB management tool, written in PHP 5.
+
+
+http://ifphp.cn/rockmongo/screenshots/show.png
+
 
 = Installation ==
  
