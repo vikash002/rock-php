@@ -1,0 +1,8 @@
+#summary About rockmongo
+
+= Introduction =
+
+It's a MongoDB management tool.
+
+= Screenshots ==
+
