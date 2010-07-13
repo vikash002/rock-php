@@ -7,6 +7,7 @@
 It's a MongoDB management tool, written in PHP 5.
 
 Main features:
+ * easy to install, and open source
  * multiple hosts, and multiple administrators for one host
  * password protection
  * query dbs
