@@ -24,6 +24,8 @@ Please feel free to report any bugs and issues to me, my email is: iwind.liu@gma
 
 = Screenshots ==
 
+Copy image address to your browser to see larger picture.
+
 
 <img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
 
