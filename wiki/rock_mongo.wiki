@@ -6,3 +6,23 @@ It's a MongoDB management tool.
 
 = Screenshots ==
 
+
+<img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
+
+
+
+http://ifphp.cn/rockmongo/screenshots/1.png
+
+http://ifphp.cn/rockmongo/screenshots/2.png
+
+http://ifphp.cn/rockmongo/screenshots/3.png
+
+http://ifphp.cn/rockmongo/screenshots/4.png
+
+http://ifphp.cn/rockmongo/screenshots/5.png
+
+
+http://ifphp.cn/rockmongo/screenshots/6.png
+
+
+http://ifphp.cn/rockmongo/screenshots/7.png
