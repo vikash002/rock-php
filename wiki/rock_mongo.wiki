@@ -9,7 +9,8 @@
 *RockMongo* is a MongoDB management tool, written in PHP 5.
 
 Main features:
- * easy to install, and full open source
+ * open source under New BSD License
+ * fast, easy to install
  * multiple hosts, and one host can has multiple administrators
  * password protection
  * query dbs
@@ -27,7 +28,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 = Installation ==
  
  # [http://code.google.com/p/rock-php/downloads/list download] the package
- # unzip the files to your disk, under your site root
+ # unzip the files to your disk, under root of your site
  # open the index.php with your convenient editor, change host, port, admins and so on to yours
  # visit the index.php in your browser, for example: http://localhost/rockmongo/index.php
  # play with your MongoDBs!
