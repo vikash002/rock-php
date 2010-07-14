@@ -2,6 +2,8 @@
 
 <wiki:toc/>
 
+[rock_mongo_zh Chinese Version]
+
 = Introduction =
 
 *RockMongo* is a MongoDB management tool, written in PHP 5.
