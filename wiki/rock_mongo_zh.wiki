@@ -1,0 +1,70 @@
+#summary rockmongo, a MongoDB management tool, written in PHP5
+
+<wiki:toc/>
+
+[rock_mongo English Version]
+
+= Introduction =
+
+*RockMongo* is a MongoDB management tool, written in PHP 5.
+
+Main features:
+ * easy to install, and open source
+ * multiple hosts, and multiple administrators for one host
+ * password protection
+ * query dbs
+ * advanced collection query tool
+ * read, insert, update, duplicate and remove single row
+ * query, create and drop indexes
+ * clear collection
+ * remove and change (only work in higher php_mongo version)  criteria matched rows
+ * view collection statistics
+ * more features will be coming soon!
+
+http://ifphp.cn/rockmongo/screenshots/show.png
+
+
+= Installation ==
+ 
+ # [http://code.google.com/p/rock-php/downloads/list download] the package
+ # unzip the files to your disk, under your site root
+ # open the index.php with your convenient editor, change host, port, admins and so on to yours
+ # visit the index.php in your browser, for example: http://localhost/rockmongo/index.php
+ # play with your MongoDBs!
+
+= Download =
+
+You can download the package at [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list].
+
+= Bugs & Issues =
+
+Please feel free to report any bugs and issues to me, my email is: iwind.liu@gmail.com .
+
+= Screenshots ==
+
+Copy image address to your browser to see larger picture.
+
+
+Collections, put mouse to one row, buttons will display:
+<img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
+
+Collections with query:
+<img src="http://ifphp.cn/rockmongo/screenshots/1.png" width="100%"/>
+
+Collections:
+<img src="http://ifphp.cn/rockmongo/screenshots/2.png" width="100%"/>
+
+Modify row:
+<img src="http://ifphp.cn/rockmongo/screenshots/3.png" width="100%"/>
+
+Insert a new row:
+<img src="http://ifphp.cn/rockmongo/screenshots/4.png" width="100%"/>
+
+Indexes:
+<img src="http://ifphp.cn/rockmongo/screenshots/5.png" width="100%"/>
+
+Create new index:
+<img src="http://ifphp.cn/rockmongo/screenshots/6.png" width="100%"/>
+
+Statistics:
+<img src="http://ifphp.cn/rockmongo/screenshots/7.png" width="100%"/>
