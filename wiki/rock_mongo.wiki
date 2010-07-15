@@ -2,7 +2,7 @@
 
 <wiki:toc/>
 
-[rock_mongo_zh Chinese Version]
+[rock_mongo_zh Chinese Version] | [rock_mongo_change_log  Changelog]
 
 = Introduction =
 
