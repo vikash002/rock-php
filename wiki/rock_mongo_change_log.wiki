@@ -1,6 +1,6 @@
 #summary RockMongo change logs
 
-= RockMongo change logs =
+= [rock_mongo RockMongo] change logs =
 
 v1.0.1 - 2010-07-15
  * switch PHP Array and JSON data format
