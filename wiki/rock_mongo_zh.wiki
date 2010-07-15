@@ -2,7 +2,7 @@
 
 <wiki:toc/>
 
-[rock_mongo English Version]
+[rock_mongo English Version] | [rock_mongo_change_log  Changelog]
 
 = 简介 =
 
