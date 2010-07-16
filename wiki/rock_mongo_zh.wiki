@@ -44,6 +44,17 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 Copy image address to your browser to see larger picture.
 
+Server Info:
+<img src="http://ifphp.cn/rockmongo/screenshots/8.png" width="100%"/>
+
+Server Status:
+<img src="http://ifphp.cn/rockmongo/screenshots/9.png" width="100%"/>
+
+Databases:
+<img src="http://ifphp.cn/rockmongo/screenshots/10.png" width="100%"/>
+
+Run command:
+<img src="http://ifphp.cn/rockmongo/screenshots/11.png" width="100%"/>
 
 Collections, put mouse to one row, buttons will display:
 <img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
