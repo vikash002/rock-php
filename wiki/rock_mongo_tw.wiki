@@ -1,0 +1,76 @@
+#summary One-sentence summary of this page.
+
+= 簡介 =
+
+RockMongo 是壹個PHP5寫的MongoDB管理工具。
+
+主要特征:
+
+ * 開源，而且非常容易安裝
+ * 可以管理多個主機，也可以為每壹個主機添加多個管理員
+ * 需要密碼才能登入
+ * 可以查詢數據庫
+ * 強大的collection查詢功能
+ * 增刪改查和復制單個行
+ * 查詢、創建和刪除索引
+ * 清除collection
+ * 批量刪除和修改數據，但後者需要高版本的php_mongo模塊支持
+ * 查看collection統計信息
+ * 更多好用的特征開發中 ...
+
+
+= 安裝 =
+
+ # 下載安裝包
+ # 解壓到妳的網站目錄下
+ # 用編輯器打開index.php，修改host, port, admins等參數
+ # 在瀏覽器中訪問index.php，比如說：http://localhost/rockmongo/index.php
+ # 開始玩轉MongoDB!
+
+= 下載 =
+
+請點擊 http://code.google.com/p/rock-php/downloads/list 下載最新的版本.
+
+= Bug和建議 =
+
+如果有任何Bug或者建議，請發送郵件給 iwind.liu@gmail.com ，非常感謝。
+
+= 截圖 =
+
+Copy image address to your browser to see larger picture.
+
+Server Info:
+<img src="http://ifphp.cn/rockmongo/screenshots/8.png" width="100%"/>
+
+Server Status:
+<img src="http://ifphp.cn/rockmongo/screenshots/9.png" width="100%"/>
+
+Databases:
+<img src="http://ifphp.cn/rockmongo/screenshots/10.png" width="100%"/>
+
+Run command:
+<img src="http://ifphp.cn/rockmongo/screenshots/11.png" width="100%"/>
+
+Collections, put mouse to one row, buttons will display:
+<img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
+
+Collections with query:
+<img src="http://ifphp.cn/rockmongo/screenshots/1.png" width="100%"/>
+
+Collections:
+<img src="http://ifphp.cn/rockmongo/screenshots/2.png" width="100%"/>
+
+Modify row:
+<img src="http://ifphp.cn/rockmongo/screenshots/3.png" width="100%"/>
+
+Insert a new row:
+<img src="http://ifphp.cn/rockmongo/screenshots/4.png" width="100%"/>
+
+Indexes:
+<img src="http://ifphp.cn/rockmongo/screenshots/5.png" width="100%"/>
+
+Create new index:
+<img src="http://ifphp.cn/rockmongo/screenshots/6.png" width="100%"/>
+
+Statistics:
+<img src="http://ifphp.cn/rockmongo/screenshots/7.png" width="100%"/>
