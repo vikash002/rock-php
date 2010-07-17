@@ -44,7 +44,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # visit the index.php in your browser, for example: http://localhost/rockmongo/index.php
  # play with your MongoDBs!
 
-= Download =
+= Downloads =
 
 You can download the package at [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list].
 
