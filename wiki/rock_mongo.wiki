@@ -1,8 +1,10 @@
-#summary rockmongo, a MongoDB management and admin tool, written in PHP5
+#summary RockMongo, a MongoDB management and admin tool, written in PHP5
 
 <wiki:toc/>
 
 [rock_mongo_zh 中文版] | [rock_mongo_change_log  Changelog]
+
+= 
 
 = Introduction =
 
@@ -13,7 +15,8 @@ Main features:
  * fast, easy to install
  * multiple hosts, and one host can has multiple administrators
  * password protection
- * query dbs
+ * query, create and drop dbs
+ * execute command and code
  * advanced collection query tool
  * read, insert, update, duplicate and remove single row
  * query, create and drop collection indexes
