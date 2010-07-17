@@ -4,7 +4,7 @@
 
 [rock_mongo_zh 中文版] | [rock_mongo_change_log  Changelog]
 
-[http://code.google.com/p/rock-php/downloads/list 2010-07-17 v1.0.2 released!]
+[http://code.google.com/p/rock-php/downloads/list v1.0.2 released!Click and download (2010-07-17)]
 
 = Introduction =
 
