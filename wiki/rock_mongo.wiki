@@ -13,8 +13,13 @@
 Main features:
  * open source under New BSD License
  * fast, easy to install
- * multiple hosts, and one host can has multiple administrators
- * password protection
+ * system
+   * multiple hosts, and one host can has multiple administrators
+   * password protection
+ * server
+   * server info (web server, PHP, directives in PHP.ini ...)
+   * status
+   * databases 
  * database
    * query, create, drop
    * execute commands and javascript codes
