@@ -15,14 +15,17 @@ Main features:
  * fast, easy to install
  * multiple hosts, and one host can has multiple administrators
  * password protection
- * query, create and drop dbs
- * execute command and code
- * advanced collection query tool
- * read, insert, update, duplicate and remove single row
- * query, create and drop collection indexes
- * clear all records in collection
- * remove and change (only work in higher php_mongo version) a batch of criteria matched rows
- * collection statistics
+ * database
+   * query, create, drop
+   * execute commands and javascript codes
+   * statistics
+ * collection
+   * advanced query tool
+   * read, insert, update, duplicate and remove single row
+   * query, create and drop indexes
+   * clear all records in collection
+   * remove and change (only work in higher php_mongo version) a batch of criteria matched rows
+   * statistics
  * more features will be coming soon!
 
 http://ifphp.cn/rockmongo/screenshots/show.png
