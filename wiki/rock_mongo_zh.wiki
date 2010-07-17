@@ -6,7 +6,7 @@
 
 = 简介 =
 
-*[rock_mongo RockMongo]* 是一个PHP5写的MongoDB管理工具。
+*[rock_mongo_zh RockMongo]* 是一个PHP5写的MongoDB管理工具。
 
 主要特征:
  * 开源，而且非常容易安装
