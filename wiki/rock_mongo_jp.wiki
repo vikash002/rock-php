@@ -1,5 +1,7 @@
 #sidebar rock_mongo_toc
 
+<wiki:toc/>
+
 =はじめに= 
 
 * [rock_mongo RockMongo] *はMongoDBは管理と管理ツール、PHP 5で書かれている。 
