@@ -1,6 +1,8 @@
 #summary RockMongo 是壹個PHP5寫的MongoDB管理工具
 #sidebar rock_mongo_toc
 
+<wiki:toc/>
+
 = 簡介 =
 
 *[rock_mongo_tw RockMongo]* 是壹個PHP5寫的MongoDB管理工具。
