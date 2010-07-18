@@ -1,6 +1,5 @@
-#summary One-sentence summary of this page.
-
-[rock_mongo English] | [rock_mongo_zh 简体中文] | [rock_mongo_tw 繁體] | [rock_mongo_change_log 更新日誌]
+#summary RockMongo 是壹個PHP5寫的MongoDB管理工具
+#sidebar rock_mongo_toc
 
 = 簡介 =
 
