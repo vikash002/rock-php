@@ -2,5 +2,5 @@
 
  * [rock_mongo English] 
  * [rock_mongo_zh 简体中文] 
- * [rock_mongo_tw 繁體] 
+ * [rock_mongo_tw 繁體中文] 
  * [rock_mongo_change_log ChangeLog]
