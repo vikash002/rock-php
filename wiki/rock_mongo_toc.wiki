@@ -1,3 +1,4 @@
+#summary RockMongo documents side bar
 
  * [rock_mongo English] 
  * [rock_mongo_zh 简体中文] 
