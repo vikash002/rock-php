@@ -1,2 +1,1 @@
-
-*[rock_mongo RockMongo], a MongoDB management and admin tool, written in PHP5.
+*[rock_mongo RockMongo]*, a MongoDB management and admin tool, written in PHP5.
