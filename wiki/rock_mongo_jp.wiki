@@ -37,7 +37,8 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # ディスクには、サイトのルートの下のファイルを解凍する 
  # あなたの便利なエディタで、変更ホスト、ポート、管理者などあなたにはindex.phpを開く 
  # たとえば、：http://localhost/rockmongo/index.phpブラウザでindex.phpを参照してください
- # あなたのMongoDBs＃では、プレイ！ 
+ # あなたのMongoDBs
+ # では、プレイ！ 
 
 =ダウンロード= 
 
