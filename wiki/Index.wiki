@@ -1,3 +1,3 @@
 *[rock_mongo RockMongo]*, a MongoDB management and admin tool, written in PHP5.
 
-RockPHP is a lightweight PHP framework for rapidly and high efficiently social game development, will be coming soon.
+*RockPHP* is a lightweight PHP framework for rapidly and high efficiently social game development, will be coming soon.
