@@ -46,4 +46,4 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 =バグ＆問題= 
 
-してください私にはバグや問題を報告する自由、自分のメールです：iwind.liu @ gmail.com。
+してください私にはバグや問題を報告する自由、自分のメールです：iwind.liu@gmail.com。
