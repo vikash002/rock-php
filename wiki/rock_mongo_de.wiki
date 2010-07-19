@@ -2,7 +2,7 @@
 
 = Einleitung = 
 
-* [Rock_mongo RockMongo] * ist ein MongoDB Management-und Admin-Tool in PHP 5 geschrieben. 
+* [rock_mongo_de RockMongo] * ist ein MongoDB Management-und Admin-Tool in PHP 5 geschrieben. 
 
 Wichtigste Eigenschaften: 
  * Open Source unter der New BSD License 
@@ -32,7 +32,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Installation == 
   
- # [Http://code.google.com/p/rock-php/downloads/list download] das Paket 
+ # [http://code.google.com/p/rock-php/downloads/list download] das Paket 
  # Die Dateien auf Ihrer Festplatte entpacken, unter root Ihrer Website 
  # Öffnen Sie die index.php mit Ihrem komfortabler Editor, ändern Host, Port, Admins und so weiter zu verkaufen 
  # Index.php in Ihrem Browser besuchen, zum Beispiel: http://localhost/rockmongo/index.php 
