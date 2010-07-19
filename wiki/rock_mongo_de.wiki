@@ -1,5 +1,7 @@
 #sidebar rock_mongo_toc
 
+<wiki:toc/>
+
 *Translated from English version by Google Translate*
 
 = Einleitung = 
@@ -32,7 +34,7 @@ Wichtigste Eigenschaften:
 http://ifphp.cn/rockmongo/screenshots/show.png 
 
 
-= Installation == 
+= Installation =
   
  # [http://code.google.com/p/rock-php/downloads/list download] das Paket 
  # Die Dateien auf Ihrer Festplatte entpacken, unter root Ihrer Website 
@@ -40,10 +42,10 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # Index.php in Ihrem Browser besuchen, zum Beispiel: http://localhost/rockmongo/index.php 
  # Spielen Sie mit Ihrer MongoDBs! 
 
-= = Downloads 
+= Downloads =
 
 Sie können das Paket unter [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] herunterladen. 
 
-Bugs & Issues = = 
+= Bugs & Issues = 
 
 Bitte zögern Sie alle Bugs und Probleme bei mir melden, meine email: iwind.liu@gmail.com.
