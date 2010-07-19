@@ -3,6 +3,12 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.0.3 - coming soon
+ * user management
+ * GridFS
+ * master/slave replication
+ * copy, clone and rename databases and collections
+
 v1.0.2 - 2010-07-17
  * server statistics, databases 
  * execute command and code
