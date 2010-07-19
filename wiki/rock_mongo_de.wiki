@@ -1,5 +1,7 @@
 #sidebar rock_mongo_toc
 
+*Translated from English version by Google Translate*
+
 = Einleitung = 
 
 * [rock_mongo_de RockMongo] * ist ein MongoDB Management-und Admin-Tool in PHP 5 geschrieben. 
