@@ -1,0 +1,45 @@
+= Einleitung = 
+
+* [Rock_mongo RockMongo] * ist ein MongoDB Management-und Admin-Tool in PHP 5 geschrieben. 
+
+Wichtigste Eigenschaften: 
+ * Open Source unter der New BSD License 
+ * Schnelle, einfach zu installieren 
+ * System 
+   * Mehrere Hosts und einem Host können mehrere Administratoren 
+   * Passwortschutz 
+ * Server 
+   * Server info (Webserver, PHP, in der php.ini ...) 
+   * Status 
+   * Datenbanken 
+ * Datenbank 
+   * Abfrage erstellt, gelöscht 
+   * Befehle ausführen und JavaScript-Codes 
+   * Statistiken 
+ * Sammlung 
+   * Erweiterte Abfrage-Tool 
+   * Lesen Sie, einfügen, duplizieren aktualisieren und zu entfernen einreihig 
+   * Abfrage, Erstellen und Löschen von Indizes 
+   * Löschen Sie alle Einträge in der Sammlung 
+   * Entfernen und ändern (funktioniert nur in höheren php_mongo Version) eine Batch-Kriterien entsprechenden Datensätze 
+   * Statistiken 
+ * Weitere Features folgen in Kürze! 
+
+http://ifphp.cn/rockmongo/screenshots/show.png 
+
+
+= Installation == 
+  
+ # [Http://code.google.com/p/rock-php/downloads/list download] das Paket 
+ # Die Dateien auf Ihrer Festplatte entpacken, unter root Ihrer Website 
+ # Öffnen Sie die index.php mit Ihrem komfortabler Editor, ändern Host, Port, Admins und so weiter zu verkaufen 
+ # Index.php in Ihrem Browser besuchen, zum Beispiel: http://localhost/rockmongo/index.php 
+ # Spielen Sie mit Ihrer MongoDBs! 
+
+= = Downloads 
+
+Sie können das Paket unter [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] herunterladen. 
+
+Bugs & Issues = = 
+
+Bitte zögern Sie alle Bugs und Probleme bei mir melden, meine email: iwind.liu@gmail.com.
