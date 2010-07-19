@@ -68,7 +68,7 @@ Databases:
 Run command:
 <img src="http://ifphp.cn/rockmongo/screenshots/11.png" width="100%"/>
 
-Collections, put mouse to one row, buttons will display:
+Collections, put mouse on one row, buttons will display:
 <img src="http://ifphp.cn/rockmongo/screenshots/0.png" width="100%"/>
 
 Collections with query:
