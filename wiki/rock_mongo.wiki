@@ -24,6 +24,8 @@ Main features:
    * query, create, drop
    * execute commands and javascript codes
    * statistics
+   * profile (v1.0.3)
+   * users management (v1.0.3)
  * collection
    * advanced query tool
    * read, insert, update, duplicate and remove single row
