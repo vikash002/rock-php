@@ -1,0 +1,63 @@
+#summary 数据存储和读取策略
+
+= 原则 =
+ 
+ * 能动态增加新的节点
+ * 保证查询速度
+ * 配置相当简单
+ * 支持2000万用户数据
+
+= 配置 =
+
+{{{
+return array(
+  "rock" => array(//公共操作
+     "master" => "xxx",
+     "slaves" => array(
+        "uri" => "xxx",
+        "persist" => "xxx",
+      )
+  ),
+
+  "logs" => array(
+     "master" => "xxx",
+     "slaves" => array(
+        array(
+          "uri" => "xxx",
+          "persist" => "xxx",
+          "weight" => 10//权重
+        )
+      )
+  ),
+  "users" => array(
+     "master" => "xxx",
+     "slaves" => array(
+         "uri" => "xxx",
+         "persist" => "xxx",
+         "weight" => 10
+      )
+  )
+);
+}}}
+
+= 分片 =
+
+ * 将每一个collection分成10个，分别命名为：log_0, log1, .. log10
+
+= 写入和更新 =
+
+{{{
+$db = Rdb::dbWithUid(1);
+$db->select("logs")->insert($logArray);
+}}}
+
+这里的logs和上面配置中的logs对应
+
+= 读取 =
+
+{{{
+$db = Rdb::dbWithUid(1);
+$db->select("log")->id("xxxxxxxxxxx")->findOne();
+}}}
+
+这里的logs和上面配置中的logs对应
