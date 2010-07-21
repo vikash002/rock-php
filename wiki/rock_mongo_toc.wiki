@@ -5,4 +5,5 @@
  * [rock_mongo_tw 繁體中文] 
  * [rock_mongo_jp 日本語]
  * [rock_mongo_de Deutsch]
+ * [rock_mongo_ru Русский]
  * [rock_mongo_change_log ChangeLog]
