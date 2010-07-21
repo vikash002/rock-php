@@ -2,6 +2,8 @@
 
 <wiki:toc/>
 
+*Translated from English version by Google Translate*
+
 = Введение = 
 
 * [rock_mongo_ru RockMongo] * является управляющей MongoDB и администратора инструмент, написанный на PHP 5. 
@@ -34,7 +36,7 @@
 http://ifphp.cn/rockmongo/screenshots/show.png 
 
 
-= Установка == 
+= Установка =
   
  # [http://code.google.com/p/rock-php/downloads/list скачать] пакете 
  # Распаковки файлов на диск, под корень вашего сайта 
@@ -42,7 +44,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # Визита index.php в браузере, например: http://localhost/rockmongo/index.php 
  # Играть с MongoDBs! 
 
-= = Загрузки 
+= Загрузки  =
 
 Вы можете скачать пакет на [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list]. 
 
