@@ -4,7 +4,7 @@
 
 = Введение = 
 
-* [Rock_mongo RockMongo] * является управляющей MongoDB и администратора инструмент, написанный на PHP 5. 
+* [Rock_mongo rock_mongo_ru] * является управляющей MongoDB и администратора инструмент, написанный на PHP 5. 
 
 Основные характеристики: 
  * С открытым исходным кодом под BSD License Новые 
@@ -36,7 +36,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Установка == 
   
- # [Http://code.google.com/p/rock-php/downloads/list скачать] пакете 
+ # [http://code.google.com/p/rock-php/downloads/list скачать] пакете 
  # Распаковки файлов на диск, под корень вашего сайта 
  # Открыть index.php с удобным редактором, изменить хост, порт, администраторы и т.д. на ваш 
  # Визита index.php в браузере, например: http://localhost/rockmongo/index.php 
@@ -44,7 +44,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = = Загрузки 
 
-Вы можете скачать пакет на [] http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list. 
+Вы можете скачать пакет на [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list]. 
 
 = Ошибки и вопросы = 
 
