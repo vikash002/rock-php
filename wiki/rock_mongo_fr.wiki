@@ -5,7 +5,7 @@ Translated from English version by Google Translate
 
 = Introduction =
 
-* [Rock_mongo RockMongo] * est un outil de gestion MongoDB et admin, écrit en PHP 5. 
+* [rock_mongo_fr RockMongo] * est un outil de gestion MongoDB et admin, écrit en PHP 5. 
 
 Caractéristiques principales: 
  * Open source sous licence BSD Nouveau 
