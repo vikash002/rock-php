@@ -27,7 +27,8 @@ return array(
           "persist" => "xxx",
           "weight" => 10//权重
         )
-      )
+      ),
+      "sharding" => 5//分片数
   ),
   "users" => array(
      "master" => "xxx",
@@ -35,14 +36,15 @@ return array(
          "uri" => "xxx",
          "persist" => "xxx",
          "weight" => 10
-      )
+      ),
+      "sharding" => 10
   )
 );
 }}}
 
 = 分片 =
 
- * 将每一个collection分成10个，分别命名为：log_0, log1, .. log10
+ * 将每一个collection分成N个，分别命名为：log_0, log1, .. logN
 
 = 写入和更新 =
 
