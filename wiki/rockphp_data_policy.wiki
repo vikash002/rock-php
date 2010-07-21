@@ -44,7 +44,7 @@ return array(
 
 = 分片 =
 
- * 将每一个collection分成N个，分别命名为：log_0, log1, .. logN
+ * 根据用户ID（一个数字）将每一个collection分成N个，分别命名为：log_0, log1, .. logN
 
 = 写入和更新 =
 
@@ -63,3 +63,12 @@ $db->select("log")->id("xxxxxxxxxxx")->findOne();
 }}}
 
 这里的logs和上面配置中的logs对应
+
+= 公用数据 =
+
+公用数据没有分片，全都使用配置中的rock项。
+
+{{{
+$db = RDb::rock();
+$db->select("rock_cache")->insert($cache);
+}}}
