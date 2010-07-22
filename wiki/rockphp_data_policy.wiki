@@ -16,28 +16,24 @@ return array(
   "rock" => array(//公共操作
      "master" => "xxx",
      "slaves" => array(
-        "uri" => "xxx",
-        "persist" => "xxx",
+        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
       )
   ),
 
   "logs" => array(
      "master" => "xxx",
      "slaves" => array(
-        array(
-          "uri" => "xxx",
-          "persist" => "xxx",
-          "weight" => 10//权重
-        )
+        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
       ),
       "sharding" => 5//分片数
   ),
   "users" => array(
      "master" => "xxx",
      "slaves" => array(
-         "uri" => "xxx",
-         "persist" => "xxx",
-         "weight" => 10
+        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
       ),
       "sharding" => 10
   )
