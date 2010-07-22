@@ -1,7 +1,8 @@
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
-Translated from English version by Google Translate
+
+*Translated from English version by Google Translate*
 
 = Introduction =
 
@@ -12,15 +13,15 @@ Caractéristiques principales:
  * Rapide, facile à installer 
  * Système 
    * Plusieurs hôtes, et un hôte peut a plusieurs administrateurs 
-   protection mot de passe * 
+   * protection mot de passe 
  * Serveur 
-   informations sur le serveur * (serveur web, PHP, les directives dans le fichier php.ini ...) 
+   * informations sur le serveur (serveur web, PHP, les directives dans le fichier php.ini ...) 
    * Le statut 
    * Bases de données 
  * Base de données 
    * Requête, CREATE, DROP 
    * Exécuter des commandes et des codes javascript 
-   Statistiques * 
+   * Statistiques  
    * Le profil (v1.0.3) 
    * Gestion des utilisateurs (v1.0.3) 
  * La collecte des 
@@ -29,7 +30,7 @@ Caractéristiques principales:
    * Requête, créer et supprimer des index 
    * Effacer tous les enregistrements de la collection 
    * Supprimer et modifier (ne travailler que dans la version plus php_mongo) un lot de critères correspondant lignes 
-   Statistiques * 
+   * Statistiques 
  * Plus de fonctionnalités seront bientôt disponibles! 
 
 http://ifphp.cn/rockmongo/screenshots/show.png 
