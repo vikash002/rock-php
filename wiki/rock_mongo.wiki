@@ -12,7 +12,7 @@
 
 Main features:
  * open source under New BSD License
- * fast, easy to install
+ * runs fast, and easy to install
  * system
    * multiple hosts, and one host can has multiple administrators
    * password protection
