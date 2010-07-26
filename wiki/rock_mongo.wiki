@@ -4,7 +4,7 @@
 <wiki:toc/>
 
 
-[http://code.google.com/p/rock-php/downloads/list v1.0.2 released! Click and download (2010-07-17)]
+[http://code.google.com/p/rock-php/downloads/list v1.0.3 released! Click and download (2010-07-26)]
 
 = Introduction =
 
