@@ -103,8 +103,43 @@ $db->select("rock_cache")->insert($cache);
 
 == 日志和消息 ==
 
-=== 加入 ===
+=== 创建 ===
 
-$query = RDb::dbWithUid(1)->select("logs")->insert( ... );
+{{{
+$userlog = RDb::rowWithUid($uid);
+$userlog->append(array(
+  "description" => "Hello,World",
+  "created_at" => time()
+));
+$userlog->save();
+}}}
+
+=== 修改 ===
+
+{{{
+$userlog = RDb::rowWithUid($uid);
+$userlog->set($key, array(
+  "description" => "New Hello,World",
+  "created_at" => time()
+));
+$userlog->save();
+}}}
+
+=== 删除 ===
+
+{{{
+$userlog = RDb::rowWithUid($uid);
+$userlog->delete($key);
+$userlog->save();
+}}}
+
+
+=== 读取 ===
+
+{{{
+$userlog = RDb::rowWithUid($uid);
+$logs = $userlog->findAll();
+$log = $userlog->get($key);
+}}}
 
 == 用户物品 == 
