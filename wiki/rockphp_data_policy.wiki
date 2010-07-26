@@ -141,5 +141,3 @@ $userlog = RDb::rowWithUid($uid);
 $logs = $userlog->findAll();
 $log = $userlog->get($key);
 }}}
-
-== 用户物品 == 
