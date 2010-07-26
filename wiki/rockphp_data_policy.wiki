@@ -103,4 +103,8 @@ $db->select("rock_cache")->insert($cache);
 
 == 日志和消息 ==
 
+=== 加入 ===
+
+$query = RDb::dbWithUid(1)->select("logs")->insert( ... );
+
 == 用户物品 == 
