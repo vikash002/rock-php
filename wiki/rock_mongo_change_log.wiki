@@ -4,11 +4,11 @@
 = [rock_mongo RockMongo] change logs =
 
 v1.0.5 - coming soon
- * I18N
+ * _I18N_
 
 v1.0.4 - coming soon
  * _GridFS_
- * command console
+ * _command console_
  * _processlist_
  * _copy, clone and rename databases and collections_
  * _master/slave replication_
