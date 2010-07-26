@@ -9,13 +9,19 @@ v1.0.5 - coming soon
 v1.0.4 - coming soon
  * _GridFS_
  * command console
+ * _processlist_
+ * _copy, clone and rename databases and collections_
+ * _master/slave replication_
 
 v1.0.3 - coming soon
- * user management
- * _master/slave replication_
- * _copy, clone and rename databases and collections_
- * database profile
- * _processlist_
+ * database profiling
+ * database user management
+ * fix jQuery path error in some cases
+ * fix object data representation in JSON and PHP format
+ * server command line
+ * validate collection
+ * repair database
+ * explain query
 
 v1.0.2 - 2010-07-17
  * server statistics, databases 
