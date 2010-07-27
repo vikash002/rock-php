@@ -103,6 +103,18 @@ $db->select("rock_cache")->insert($cache);
 
 == 日志和消息 ==
 
+=== 数据结构 ===
+
+{{{
+{
+  _id:ObjectId([id]),
+  logs: {
+     [logid1]:{ description: [description], created_at:[time] } ,
+     ...
+  }
+}
+}}}
+
 === 创建 ===
 
 {{{
@@ -141,3 +153,20 @@ $userlog = RDb::rowWithUid($uid);
 $logs = $userlog->findAll();
 $log = $userlog->get($key);
 }}}
+
+== 用户信息 ==
+
+=== 数据结构 ===
+
+{{{
+{
+  _id:ObjectId([id]),
+  profile: {
+      name:[name],
+      age:[age],
+      ...
+  }
+}
+}}}
+
+== 物品信息 ==
