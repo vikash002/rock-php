@@ -15,29 +15,29 @@
 return array(
   "rock" => array(//公共操作
      "dbname" => "my",
-     "master" => "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+     "master" => "mongodb://xxxxx?persist=xxx&weight=xxxx",
      "slaves" => array(
-        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
-        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+        "mongodb://xxxxx?persist=xxx&weight=xxxx",
+        "mongodb://xxxxx?persist=xxx&weight=xxxx",
       )
   ),
 
   "logs" => array(
      "dbname" => "my",
-     "master" => "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+     "master" => "mongodb://xxxxx?persist=xxx&weight=xxxx",
      "slaves" => array(
-        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
-        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+        "mongodb://xxxxx?persist=xxx&weight=xxxx",
+        "mongodb://xxxxx?persist=xxx&weight=xxxx",
       ),
       "sharding" => 5//分片数,
       "model" => "Log"
   ),
   "users" => array(
      "dbname" => "my",
-     "master" => "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+     "master" => "mongodb://xxxxx?persist=xxx&weight=xxxx",
      "slaves" => array(
-        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
-        "mongodb://xxxxx?pesist=xxx&weight=xxxx",
+        "mongodb://xxxxx?persist=xxx&weight=xxxx",
+        "mongodb://xxxxx?persist=xxx&weight=xxxx",
       ),
       "sharding" => 10,
       "model" => "User"
@@ -69,7 +69,7 @@ $db->select("logs")->id("xxxxxxxxxxx")->findOne();
 
 = 公用数据 =
 
-公用数据没有分片，全都使用配置中的rock项。
+公用数据没有分片
 
 {{{
 $db = RDb::rock();
