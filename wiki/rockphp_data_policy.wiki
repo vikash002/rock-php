@@ -50,8 +50,8 @@ return array(
 = 写入和更新 =
 
 {{{
-$db = Rdb::dbWithUid(1);
-$db->select("logs")->insert($logArray);
+$db = Rdb::db($uid);
+$db->select("logs")->insert($log);
 }}}
 
 这里的logs和上面配置中的logs对应
@@ -59,8 +59,8 @@ $db->select("logs")->insert($logArray);
 = 读取 =
 
 {{{
-$db = Rdb::dbWithUid(1);
-$db->select("log")->id("xxxxxxxxxxx")->findOne();
+$db = Rdb::db($uid);
+$db->select("logs")->id("xxxxxxxxxxx")->findOne();
 }}}
 
 这里的logs和上面配置中的logs对应
