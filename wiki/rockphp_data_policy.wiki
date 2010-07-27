@@ -14,7 +14,8 @@
 {{{
 return array(
   "rock" => array(//公共操作
-     "master" => "xxx",
+     "dbname" => "my",
+     "master" => "mongodb://xxxxx?pesist=xxx&weight=xxxx",
      "slaves" => array(
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
@@ -22,7 +23,8 @@ return array(
   ),
 
   "logs" => array(
-     "master" => "xxx",
+     "dbname" => "my",
+     "master" => "mongodb://xxxxx?pesist=xxx&weight=xxxx",
      "slaves" => array(
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
@@ -30,7 +32,8 @@ return array(
       "sharding" => 5//分片数
   ),
   "users" => array(
-     "master" => "xxx",
+     "dbname" => "my",
+     "master" => "mongodb://xxxxx?pesist=xxx&weight=xxxx",
      "slaves" => array(
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
