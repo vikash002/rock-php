@@ -99,7 +99,7 @@ $db->select("rock_cache")->insert($cache);
 
 其中id1, id2 ..为我们自己生成的唯一的ID，用来删除、修改数据。
 
-== 案例 ==
+= 案例 =
 
 == 日志和消息 ==
 
