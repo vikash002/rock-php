@@ -29,7 +29,8 @@ return array(
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
       ),
-      "sharding" => 5//分片数
+      "sharding" => 5//分片数,
+      "model" => "Log"
   ),
   "users" => array(
      "dbname" => "my",
@@ -38,7 +39,8 @@ return array(
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
         "mongodb://xxxxx?pesist=xxx&weight=xxxx",
       ),
-      "sharding" => 10
+      "sharding" => 10,
+      "model" => "User"
   )
 );
 }}}
