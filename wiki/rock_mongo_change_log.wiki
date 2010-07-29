@@ -3,10 +3,8 @@
 
 = [rock_mongo RockMongo] change logs =
 
-v1.0.5 - coming soon
+v-future - coming soon
  * _I18N_
-
-v1.0.4 - coming soon
  * _GridFS_
  * _command console_
  * _processlist_
