@@ -7,9 +7,15 @@ v-future - coming soon
  * _I18N_
  * _GridFS_
  * _command console_
- * _processlist_
  * _copy, clone and rename databases and collections_
  * _master/slave replication_
+
+v1.0.4 - 2010-08-02
+* change frameset to iframe
+* switch hosts without re-login
+* add manual links
+* processlist
+* fix bugs
 
 v1.0.3 - 2010-07-26
  * database profiling
