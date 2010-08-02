@@ -11,11 +11,11 @@ v-future - coming soon
  * _master/slave replication_
 
 v1.0.4 - 2010-08-02
-* change frameset to iframe
-* switch hosts without re-login
-* add manual links
-* processlist
-* fix bugs
+ * change frameset to iframe
+ * switch hosts without re-login
+ * add manual links
+ * processlist
+ * fix bugs
 
 v1.0.3 - 2010-07-26
  * database profiling
