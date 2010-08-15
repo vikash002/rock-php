@@ -1,4 +1,5 @@
 #summary RockMongo, a MongoDB management and admin tool, written in PHP5
+#labels Featured
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
