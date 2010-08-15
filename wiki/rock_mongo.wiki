@@ -27,6 +27,7 @@ Main features:
    * statistics
    * profiling
    * users management 
+   * data transfer(clone, v1.0.5)
  * collection
    * advanced query tool and explain
    * read, insert, update, duplicate and remove single row
@@ -37,6 +38,7 @@ Main features:
    * statistics
    * rename(v1.0.5)
    * modify properties (capped, size, max ..., v1.0.5)
+   * data transfer(clone, v1.0.5)
  * more features will be coming soon!
 
 http://ifphp.cn/rockmongo/screenshots/show.png
