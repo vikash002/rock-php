@@ -7,7 +7,7 @@
 
 [http://code.google.com/p/rock-php/downloads/list v1.0.4.r37 released! Click and download (2010-08-12)]
 
-Introduce us to your friends if you love RockMongo!
+Introduce us to your friends if you love [rock_mongo RockMongo]!
 
 = Introduction =
 
