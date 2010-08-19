@@ -18,6 +18,7 @@ Main features:
  * Runs fast, and easy to install
  * System
    * Multiple hosts, and one host can has multiple administrators
+   * Switch among hosts freely
    * Password protection
  * Server
    * Server info (web server, PHP, directives in PHP.ini ...)
