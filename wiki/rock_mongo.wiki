@@ -39,7 +39,7 @@ Main features:
    * Query, create and drop indexes
    * Validate collection
    * Clear all records in collection
-   * Remove and change (only work in higher php_mongo version) a batch of criteria matched rows
+   * Remove and change a batch of criteria matched rows
    * Statistics
    * Rename(v1.0.5)
    * Modify properties (capped, size, max ..., v1.0.5)
