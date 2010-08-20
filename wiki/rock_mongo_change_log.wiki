@@ -7,8 +7,19 @@ v-future - coming soon
  * _I18N_
  * _GridFS_
  * _command console_
- * _copy, clone and rename databases and collections_
- * _master/slave replication_
+ * _sharding_
+ * _replica set_
+
+v1.0.5 - 2010-8-20
+ * NOTICE:move configurations from index.php to config.php
+ * drop all collections in a db
+ * clear all collections in a db
+ * make _id index un-dropable
+ * collection property modification (capped, max, size ...)
+ * rename collection
+ * data transfer: transfer collections to other servers
+ * export and import collections (JSON data format)
+ * Master/Slave information
 
 v1.0.4.r39 - 2010-08-12
  * fix pagination problem 
