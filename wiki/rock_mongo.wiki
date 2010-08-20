@@ -24,15 +24,15 @@ Main features:
    * Server info (web server, PHP, directives in PHP.ini ...)
    * Status
    * Databases 
-   * Replication status(v1.0.5)
+   * Replication status
  * Database
    * Query, create, drop, repair
    * Execute commands and javascript codes
    * Statistics
    * Profiling
    * Users management 
-   * Data transfer(clone, v1.0.5)
-   * Export/import(v1.0.5)
+   * Data transfer(clone)
+   * Export/import
  * Collection
    * Advanced query tool and explain
    * Read, insert, update, duplicate and remove single row
@@ -41,10 +41,10 @@ Main features:
    * Clear all records in collection
    * Remove and change a batch of criteria matched rows
    * Statistics
-   * Rename(v1.0.5)
-   * Modify properties (capped, size, max ..., v1.0.5)
-   * Data transfer(clone, v1.0.5)
-   * Export/import(v1.0.5)
+   * Rename
+   * Modify properties (capped, size, max ...)
+   * Data transfer(clone)
+   * Export/import
  * More features will be coming soon!
 
 http://ifphp.cn/rockmongo/screenshots/show.png
