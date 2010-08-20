@@ -14,7 +14,7 @@ v1.0.5 - 2010-8-20
  * NOTICE:move configurations from index.php to config.php
  * drop all collections in a db
  * clear all collections in a db
- * make _id index un-dropable
+ * make `_`id index un-dropable
  * collection property modification (capped, max, size ...)
  * rename collection
  * data transfer: transfer collections to other servers
