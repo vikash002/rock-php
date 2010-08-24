@@ -11,7 +11,7 @@ Introduce us to your friends if you love [rock_mongo RockMongo]!
 
 = Introduction =
 
-*[rock_mongo RockMongo]* is a MongoDB management and administration GUI tool, written in PHP 5.
+*[rock_mongo RockMongo]* is a MongoDB administration GUI tool, written in PHP 5.
 
 Main features:
  * Open source under New BSD License
