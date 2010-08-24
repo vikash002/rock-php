@@ -38,7 +38,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
   
  # [http://code.google.com/p/rock-php/downloads/list download] das Paket 
  # Die Dateien auf Ihrer Festplatte entpacken, unter root Ihrer Website 
- # Öffnen Sie die index.php mit Ihrem komfortabler Editor, ändern Host, Port, Admins und so weiter zu verkaufen 
+ # Öffnen Sie die config.php mit Ihrem komfortabler Editor, ändern Host, Port, Admins und so weiter zu verkaufen 
  # index.php in Ihrem Browser besuchen, zum Beispiel: http://localhost/rockmongo/index.php 
  # Spielen Sie mit Ihrer MongoDBs! 
 
