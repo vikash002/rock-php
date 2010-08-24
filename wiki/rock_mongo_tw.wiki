@@ -26,7 +26,7 @@
 
  # 下載安裝包
  # 解壓到妳的網站目錄下
- # 用編輯器打開index.php，修改host, port, admins等參數
+ # 用編輯器打開config.php，修改host, port, admins等參數
  # 在瀏覽器中訪問index.php，比如說：http://localhost/rockmongo/index.php
  # 開始玩轉MongoDB!
 
