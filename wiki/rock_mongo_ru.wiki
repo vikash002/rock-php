@@ -40,7 +40,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
   
  # [http://code.google.com/p/rock-php/downloads/list скачать] пакете 
  # Распаковки файлов на диск, под корень вашего сайта 
- # Открыть index.php с удобным редактором, изменить хост, порт, администраторы и т.д. на ваш 
+ # Открыть config.php с удобным редактором, изменить хост, порт, администраторы и т.д. на ваш 
  # Визита index.php в браузере, например: http://localhost/rockmongo/index.php 
  # Играть с MongoDBs! 
 
