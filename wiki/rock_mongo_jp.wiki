@@ -37,7 +37,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
   
  # [http://code.google.com/p/rock-php/downloads/list パッケージをダウンロード] 
  # ディスクには、サイトのルートの下のファイルを解凍する 
- # あなたの便利なエディタで、変更ホスト、ポート、管理者などあなたにはindex.phpを開く 
+ # あなたの便利なエディタで、変更ホスト、ポート、管理者などあなたにはconfig.phpを開く 
  # たとえば、：http://localhost/rockmongo/index.php ブラウザでindex.phpを参照してください
  # あなたのMongoDBs
  # では、プレイ！ 
