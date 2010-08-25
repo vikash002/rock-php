@@ -34,6 +34,7 @@ Main features:
    * Users management 
    * Data transfer(clone)
    * Export/import
+   * Sharding Infomation(v1.0.6)
  * Collection
    * Advanced query tool and explain
    * Read, insert, update, duplicate and remove single row
