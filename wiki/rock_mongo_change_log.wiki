@@ -3,7 +3,7 @@
 
 = [rock_mongo RockMongo] change logs =
 
-v-future - coming soon
+v-plan - coming soon
  * _GridFS_
  * _command console_
  * _sharding_
