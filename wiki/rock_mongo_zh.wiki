@@ -40,6 +40,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # 解压到你的网站目录下
  # 用编辑器打开config.php (v1.0.5版本以前是index.php)，修改host, port, admins等参数
  # 在浏览器中访问index.php，比如说：http://localhost/rockmongo/index.php
+ # 使用用户名和密码登录，默认为"admin"和"admin"
  # 开始玩转MongoDB!
 
 = 下载 =
