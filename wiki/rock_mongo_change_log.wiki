@@ -4,11 +4,16 @@
 = [rock_mongo RockMongo] change logs =
 
 v-future - coming soon
- * _I18N_
  * _GridFS_
  * _command console_
  * _sharding_
  * _replica set_
+
+v1.0.6 - 2010-08-29
+ * improved GUI
+ * I18N, English, chinese and japanese is supported
+ * More replication information
+ * connection to mongos is supported
 
 v1.0.5 - 2010-8-20
  * NOTICE:move configurations from index.php to config.php
