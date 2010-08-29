@@ -16,7 +16,7 @@ Introduce us to your friends if you love [rock_mongo RockMongo]!
 Main features:
  * Open source under New BSD License
  * Runs fast, and easy to install
- * I18N(v1.0.6)
+ * I18N
  * System
    * Multiple hosts, and one host can has multiple administrators
    * Switch among hosts freely
