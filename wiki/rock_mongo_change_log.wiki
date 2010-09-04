@@ -4,10 +4,7 @@
 = [rock_mongo RockMongo] change logs =
 
 v-plan - coming soon
- * _GridFS_
- * _command console_
  * _sharding_
- * _replica set_
 
 v1.0.6 - 2010-08-29
  * improved GUI
