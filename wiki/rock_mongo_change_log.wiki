@@ -3,8 +3,16 @@
 
 = [rock_mongo RockMongo] change logs =
 
-v-plan - coming soon
- * _sharding_
+v1.0.7 - 2010-09-04
+ * Add more collection statistics with command {top:1}
+ * Add full processlist, connections is included
+ * Expend and collapse single record
+ * Now you can specify query result fields and hints in query
+ * GridFS is supported, you can view chunks and download the full file
+ * Some slight improvements
+   * Change font size from 11px to 12px
+   * Use a few icons
+   * Keep record operations always displayed
 
 v1.0.6 - 2010-08-29
  * improved GUI
