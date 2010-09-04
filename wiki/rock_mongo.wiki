@@ -35,7 +35,7 @@ Main features:
    * Data transfer(clone)
    * Export/import
  * Collection
-   * Advanced query tool and explain
+   * Advanced query and explain tool
    * Read, insert, update, duplicate and remove single row
    * Query, create and drop indexes
    * Validate collection
@@ -46,6 +46,9 @@ Main features:
    * Modify properties (capped, size, max ...)
    * Data transfer(clone)
    * Export/import
+ * GridFS
+   * View chunks
+   * Download file
  * More features will be coming soon!
 
 http://ifphp.cn/rockmongo/screenshots/show.png
