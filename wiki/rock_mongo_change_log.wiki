@@ -3,6 +3,10 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.0.7.r87 - 2010-09-05
+ * fix hints bug
+ * some slight GUI changes
+
 v1.0.7 - 2010-09-04
  * Add more collection statistics with command {top:1}
  * Add full processlist, connections is included
