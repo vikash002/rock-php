@@ -3,6 +3,10 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.0.8 - Coming soon
+ * Operations on single field more easily
+ * Autocomplete field in index creation
+
 v1.0.7.r87 - 2010-09-05
  * fix hints bug
  * some slight GUI changes
