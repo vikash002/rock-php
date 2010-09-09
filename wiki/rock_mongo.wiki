@@ -1,4 +1,4 @@
-#summary RockMongo, a MongoDB management and admin tool, written in PHP5
+#summary RockMongo, best PHP based MongoDB administration GUI tool
 #labels Featured
 #sidebar rock_mongo_toc
 
