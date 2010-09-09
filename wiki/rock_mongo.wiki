@@ -46,6 +46,8 @@ Main features:
    * Modify properties (capped, size, max ...)
    * Data transfer(clone)
    * Export/import
+ * Field
+   * Update/Remove/Clear operations (v1.0.8)
  * GridFS 
    * View chunks
    * Download file
