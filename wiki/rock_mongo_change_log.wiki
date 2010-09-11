@@ -4,8 +4,13 @@
 = [rock_mongo RockMongo] change logs =
 
 v1.0.8 - Coming soon
- * Operations on single field more easily
+ * Make operations on single field more easily, now you can update, rename, remove, clear (set to null), query, create indexes on a field, just click field name in record to get surprise
+ * Add new field to a record or to whole collection
  * Autocomplete field in index creation
+ * Add go "TOP" link 
+ * Refresh single record without whole page reloading
+ * Add a simple menu to number, let you view number as bytes or a date time
+ * Shorten long text, and then you click "..." to see full text
 
 v1.0.7.r87 - 2010-09-05
  * fix hints bug
