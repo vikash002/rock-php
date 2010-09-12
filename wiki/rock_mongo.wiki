@@ -24,7 +24,7 @@ Main features:
  * Server
    * Server info (web server, PHP, directives in PHP.ini ...)
    * Status
-   * Databases 
+   * Databases overview
    * Replication status
  * Database
    * Query, create, drop, repair
@@ -47,7 +47,7 @@ Main features:
    * Data transfer(clone)
    * Export/import
  * Field
-   * Update/Remove/Clear operations (v1.0.8)
+   * Update/Remove/Clear operations
  * GridFS 
    * View chunks
    * Download file
