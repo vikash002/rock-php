@@ -2,6 +2,8 @@
 
 <wiki:toc/>
 
+<strong>Japanese, please be kind to others!</strong>
+
 =はじめに= 
 
 * [rock_mongo RockMongo] *はMongoDBは管理と管理ツール、PHP 5で書かれている。 
