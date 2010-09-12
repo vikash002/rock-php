@@ -83,6 +83,7 @@ function write($type, $key, $value, $apc = true, $ttl = 1209600, $tags = null);
 = 问题集 =
 
 *版本控制的粒度不可能太小*
+
 比如日志列表和单个日志，可以动态增加新的版本，比如：
 {{{
 log.1 = 23,
