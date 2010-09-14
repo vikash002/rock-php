@@ -3,7 +3,7 @@
 
 = [rock_mongo RockMongo] change logs =
 
-v1.0.8 - Coming soon, will be released after v1.0.7 reaching it's 100 downloads
+v1.0.8 - 2010-09-14
  * Make operations on single field more easily, now you can update, rename, remove, clear (set to null), query, create indexes on a field, just click field name in record to get surprise
  * Add new field to a record or to whole collection
  * Autocomplete field in index creation
