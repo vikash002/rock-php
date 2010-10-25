@@ -41,6 +41,8 @@
 
 = 房间 =
 
+== 属性 ==
+
 {{{
 {
    "name": "iwind的房间",
@@ -52,16 +54,20 @@
 
 }}}
 
+== 创建房间 ==
+
 = 计时 =
 
 = 事件 =
 
  * subscribe()
  * unsubscribe()
+ * ack()
 
 = 命令 =
 
 可以先试着用JSON格式。
 
+ * player - 用户
  * code - 代号
  * body - 内容体
