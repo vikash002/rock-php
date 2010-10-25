@@ -64,6 +64,7 @@
 
  * subscribe()
  * unsubscribe()
+ * notify()
  * ack()
 
 = 命令 =
