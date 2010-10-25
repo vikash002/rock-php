@@ -11,5 +11,57 @@
  
  * INotify
  * Libevent
+ * Stomp
+
+= 玩家 =
+
+= 工会 =
 
 = 服务器 =
+
+{{{
+[{
+   "name": "北京服务器",
+   "uri": "192.168.0.100:8000"
+}, ...]
+}}}
+
+= 大厅 =
+
+{{{
+[{
+  "name": "新手1",
+  "rooms": [
+       102, 208, ...
+   ]
+},
+ ...
+]
+}}}
+
+= 房间 =
+
+{{{
+{
+   "name": "iwind的房间",
+   "password": "123456",
+   "players": [{
+       "id": 1, "state":"playing|left|watching", "position": 1
+   }, ...]
+}
+
+}}}
+
+= 计时 =
+
+= 事件 =
+
+ * subscribe()
+ * unsubscribe()
+
+= 命令 =
+
+可以先试着用JSON格式。
+
+ * code - 代号
+ * body - 内容体
