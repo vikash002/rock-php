@@ -3,6 +3,16 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.0.9 - 2010-10-26
+ * replace eval() with safer VarEval class
+ * fix records sorting bug
+ * support query in json format
+ * support tab key in textarea
+ * fix explain query
+ * collections can be exported as a .gz file
+ * add brazilian and french translation
+ * query history: in config.php set the feature to on
+
 v1.0.8 - 2010-09-14
  * Make operations on single field more easily, now you can update, rename, remove, clear (set to null), query, create indexes on a field, just click field name in record to get surprise
  * Add new field to a record or to whole collection
