@@ -14,6 +14,8 @@
  * INotify
  * Libevent
  * Stomp
+ * NP的游戏server
+ * smartfoxserver
 
 = Socket =
 
