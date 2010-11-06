@@ -24,6 +24,7 @@
  * onConnect($success)
  * onClose()
  * onData($msg)
+ * WebSockets: http://dev.w3.org/html5/websockets/
 
 = 玩家 =
 
