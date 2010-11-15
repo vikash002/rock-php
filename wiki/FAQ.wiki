@@ -1,5 +1,34 @@
-coming soon.
-
 <wiki:toc/>
 
 == How to disable authentication? ==
+
+There is two ways to disable authentication.
+
+First way, set server option "auth_enabled" to false in config.php:
+
+{{{
+         array(
+		"host" => "192.168.1.1",
+		"port" => "27017",
+		"username" => null,
+		"password" => null,
+		"auth_enabled" => false,
+		"admins" => array( 
+			"admin" => "admin"
+		)
+	)
+}}}
+
+Second way, remove or comment all of admins:
+{{{
+         array(
+		"host" => "192.168.1.1",
+		"port" => "27017",
+		"username" => null,
+		"password" => null,
+		"auth_enabled" => true,
+		"admins" => array( 
+			//"admin" => "admin"
+		)
+	)
+}}}
