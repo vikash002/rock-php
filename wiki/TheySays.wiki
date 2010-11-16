@@ -4,5 +4,7 @@
 
 *Syed Kamran Haider*
 {{{
-RockMongo is awesome! loved it, it has many *useful* options and very straight forward, I've also used MongoVUE and Database Master but I recommend using RockMongo it actually rocks! :-)
+RockMongo is awesome! loved it, it has many *useful* options and very straight forward, 
+I've also used MongoVUE and Database Master but I recommend using RockMongo it actually 
+rocks! :-)
 }}}
