@@ -11,6 +11,10 @@ v1.0.10 - 2010-11-16
   * Choose SESSION lifetime in sign in form
   * Refresh records count in a collection when click collection name on left bar
   * Allow float number in query criteria
+  * Prompt error message when insert/update fail
+  * Add auth_enabled option to disable authentication, see FAQ for details
+  * Fix field selection bug when it's in an array list 
+
 
 v1.0.9 - 2010-10-26
  * replace eval() with safer VarEval class
