@@ -2,7 +2,7 @@
 
 == How to disable authentication? ==
 
-There is two ways to disable authentication.
+From v1.0.10, there is two ways to disable authentication.
 
 First way, set server option "auth_enabled" to false in config.php:
 
