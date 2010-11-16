@@ -5,7 +5,7 @@
 <wiki:toc/>
 
 
-`[`[http://code.google.com/p/rock-php/downloads/list v1.0.9 released! Click and download (2010-10-26)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`[http://code.google.com/p/rock-php/downloads/list v1.0.10 released! Click and download (2010-11-16)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Introduce us to your friends or post a review on your blog if you love [rock_mongo RockMongo]!
 
