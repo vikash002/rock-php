@@ -48,7 +48,7 @@ to larger numbers, such as:
 
 {{{
 max_execution_time = 1200
-memory_limit = 512M
+memory_limit = 1024M
 }}}
 
 Then you need to restart your web server (apache, nginx ....).
