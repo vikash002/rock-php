@@ -39,12 +39,16 @@ Second way, remove or comment all of admins:
 
 To export a large db, you need to change your configures in your php.ini :
 
+{{{
 max_execution_time = 30
 memory_limit = 128M
+}}}
 
 to larger numbers, such as:
 
+{{{
 max_execution_time = 1200
 memory_limit = 512M
+}}}
 
 Then you need to restart your web server (apache, nginx ....).
