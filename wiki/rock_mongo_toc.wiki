@@ -7,7 +7,8 @@
  * [rock_mongo_jp 日本語]
  * [rock_mongo_de Deutsch]
  * [rock_mongo_ru Русский]
- * [rock_mongo_fr Franch]
+ * [rock_mongo_fr French]
+ * [rock_mongo_br Português]
  *
  * »[rock_mongo_change_log ChangeLog]
  * »[FAQ FAQ]
