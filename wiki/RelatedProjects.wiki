@@ -1,0 +1,1 @@
+ * SLiM Stack: <a href="http://www.getslimstack.net/">SLiM stands for Scala + Lift + MongoDB</a>
