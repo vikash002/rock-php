@@ -1,51 +1,73 @@
+#summary RockMongo, best PHP based MongoDB administration GUI tool
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
 
-*Translated from English version by Google Translate*
 
-= Einleitung = 
+`[`RockMongo [http://code.google.com/p/rock-php/downloads/list v1.0.10 ist raus! Klicke zum Downloaden (2010-11-16)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
-* [rock_mongo_de RockMongo] * ist ein MongoDB Management-und Admin-Tool in PHP 5 geschrieben. 
+Stell uns deinen Freunden vor oder poste ein Review in deinem Blog wenn du [rock_mongo RockMongo] liebst!
 
-Wichtigste Eigenschaften: 
- * Open Source unter der New BSD License 
- * Schnelle, einfach zu installieren 
- * System 
-   * Mehrere Hosts und einem Host können mehrere Administratoren 
-   * Passwortschutz 
- * Server 
-   * Server info (Webserver, PHP, in der php.ini ...) 
-   * Status 
-   * Datenbanken 
- * Datenbank 
-   * Abfrage erstellt, gelöscht 
-   * Befehle ausführen und JavaScript-Codes 
-   * Statistiken 
- * Sammlung 
-   * Erweiterte Abfrage-Tool 
-   * Lesen Sie, einfügen, duplizieren aktualisieren und zu entfernen einreihig 
-   * Abfrage, Erstellen und Löschen von Indizes 
-   * Löschen Sie alle Einträge in der Sammlung 
-   * Entfernen und ändern (funktioniert nur in höheren php_mongo Version) eine Batch-Kriterien entsprechenden Datensätze 
-   * Statistiken 
- * Weitere Features folgen in Kürze! 
+= Einleitung =
 
-http://ifphp.cn/rockmongo/screenshots/show.png 
+*[rock_mongo RockMongo]* ist ein Administrations-Werkzeug für MongoDB. Geschrieben in PHP5.
+
+Hauptfeatures:
+ * Open source mit New BSD Lizenz
+ * Performant und einfach zu installieren
+ * I18N (Chinesisch (simplifiziert und traditionell), Deutsch, Englisch, Französisch, Japanisch, brasilianisches Portugugisisch)
+ * System
+   * Mehrere Hosts mit mehreren Administratoren pro Host
+   * Einfacher Wechsel zwischen den Hosts
+   * Passwortschutz
+ * Server
+   * Serverinfo (web server, PHP, directives in PHP.ini ...)
+   * Status
+   * Datenbankübersicht
+   * Replikationsstatus
+ * Datenbank
+   * Abfragen, erstellen, löschen, reparieren
+   * Ausführung Befehle und JavaScript-Codes aus
+   * Statistiken
+   * Profiling
+   * Benutzerverwaltung
+   * Datentransfer (Klonen)
+   * Export/Import
+ * Sammlungen
+   * Erweiterte Abfragen- und Erklärungswerkzeuge
+   * Lesen, einfügen, modifizieren, duplizieren und löschen einzelner Zeilen
+   * Abfrage, Erstellung und Löschung von Indizes
+   * Validierung von Sammlungen
+   * Leeren von Sammlungen
+   * Regelbasierte Massenmodifizierung und -löschung von Zeilen
+   * Statistiken
+   * Umbenennung
+   * Modifikation von Eigenschaften (Größenbeschränkungen, capped, max, usw.)
+   * Datentransfer (Klonen)
+   * Export/Import
+ * Felder
+   * Modifizieren, löschen, leeren
+ * GridFS 
+   * Chunks ansehen
+   * Dateien downloaden
+ * mehr Features sind geplant und bereits in Entwicklung!
+
+http://ifphp.cn/rockmongo/screenshots/show.png
 
 
-= Installation =
-  
- # [http://code.google.com/p/rock-php/downloads/list download] das Paket 
- # Die Dateien auf Ihrer Festplatte entpacken, unter root Ihrer Website 
- # Öffnen Sie die config.php mit Ihrem komfortabler Editor, ändern Host, Port, Admins und so weiter zu verkaufen 
- # index.php in Ihrem Browser besuchen, zum Beispiel: http://localhost/rockmongo/index.php 
- # Spielen Sie mit Ihrer MongoDBs! 
+= Installation ==
+ 
+ # Das Paket [http://code.google.com/p/rock-php/downloads/list downloaden]
+ # Paket im Wurzelverzeichnis der Website entpacken
+ # Die Datei config.php (index.php vor Version v1.0.5) mit einem beliebigen Texteditor öffnen und die Parameter anpassen
+ # Nun die index.php im Browser öffnen (z.B. http://localhost/rockmongo/index.php)...
+ # ... und mit dem eingestellten Admin-Usernamen und -passwort einloggen (admin, admin ist standardmäßig vorgegeben)
+ # spiel mit deiner MongoDB :-)
 
 = Downloads =
 
-Sie können das Paket unter [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] herunterladen. 
+Das Paket kann unter [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] bezogen werden.
 
-= Bugs & Issues = 
+= Bugs & Issues =
 
-Bitte zögern Sie alle Bugs und Probleme bei mir melden, meine email: iwind.liu@gmail.com.
+Gerne nehmen wir Bugs, Verbesserungsvorschläge und Featureideen an. Sende und dazu einfach eine E-Mail an: iwind.liu@gmail.com .
