@@ -61,7 +61,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # Paket im Wurzelverzeichnis der Website entpacken
  # Die Datei config.php (index.php vor Version v1.0.5) mit einem beliebigen Texteditor öffnen und die Parameter anpassen
  # Nun die index.php im Browser öffnen (z.B. http://localhost/rockmongo/index.php)...
- # ... und mit dem eingestellten Admin-Usernamen und -passwort einloggen (admin, admin ist standardmäßig vorgegeben)
+ # ... und mit dem eingestellten Admin-Usernamen und -passwort einloggen (Benutzername: admin, Passwort: admin ist standardmäßig vorgegeben)
  # spiel mit deiner MongoDB :-)
 
 = Downloads =
@@ -70,4 +70,4 @@ Das Paket kann unter [http://code.google.com/p/rock-php/downloads/list http://co
 
 = Bugs & Issues =
 
-Gerne nehmen wir Bugs, Verbesserungsvorschläge und Featureideen an. Sende und dazu einfach eine E-Mail an: iwind.liu@gmail.com .
+Gerne nehmen wir Bugs, Verbesserungsvorschläge und neue Ideen entgegen. Sende und dazu einfach eine E-Mail an: iwind.liu@gmail.com .
