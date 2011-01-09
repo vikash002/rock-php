@@ -1,5 +1,5 @@
+#summary RockMongo, best PHP based MongoDB administration GUI tool
 #labels Featured
-1#summary RockMongo, best PHP based MongoDB administration GUI tool
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
