@@ -3,6 +3,18 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.0.11 - 2011-01-09
+ * Add true, false and null to allowed PHP codes in saving data
+ * Highlight current collection in left menu when it reload
+ * Support JSON format in inserting and updating
+ * Added feature to show only user-defined set of databases (to avoid costly listDBs call)
+ * Add mongoint32, mongoint64 to allowed tokens in PHP array
+ * Spanish and German translation
+ * Fix token_get_all undefined issue
+ * Add panels layout (thank Borda Juan Ignacio)
+ * Fix NULL field updating bug
+ * When host is unable to connect, you can choose another host
+
 v1.0.10 - 2010-11-16
   * Added docblock comments to translation files, updated brazilian translation, 
     updated english translation, created additional localization variables (contato)
