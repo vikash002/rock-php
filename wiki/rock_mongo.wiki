@@ -1,11 +1,11 @@
-#summary RockMongo, best PHP based MongoDB administration GUI tool
 #labels Featured
+1#summary RockMongo, best PHP based MongoDB administration GUI tool
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
 
 
-`[`[http://code.google.com/p/rock-php/downloads/list v1.0.10 released! Click and download (2010-11-16)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`[http://code.google.com/p/rock-php/downloads/list v1.0.10 released! Click and download (2011-01-09)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Introduce us to your friends or post a review on your blog if you love [rock_mongo RockMongo]!
 
