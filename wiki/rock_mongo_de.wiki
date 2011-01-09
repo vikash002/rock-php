@@ -6,7 +6,7 @@
 
 `[`RockMongo [http://code.google.com/p/rock-php/downloads/list v1.0.10 ist raus! Klicke zum Downloaden (2010-11-16)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
-Stell uns deinen Freunden vor oder poste ein Review in deinem Blog wenn du [rock_mongo RockMongo] liebst!
+Stell uns deinen Freunden vor oder poste ein Review in deinem Blog wenn du [rock_mongo RockMongo] magst!
 
 = Einleitung =
 
