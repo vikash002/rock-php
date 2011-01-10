@@ -3,7 +3,7 @@
 
 <wiki:toc/>
 
-`[`[http://code.google.com/p/rock-php/downloads/list v1.0.10 lançada! Clique e faça o download (2010-11-16)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`[http://code.google.com/p/rock-php/downloads/list v1.0.11 lançada! Clique e faça o download (2011-01-10)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Fale de nós para seus amigos ou poste em seu blog se você adora o [rock_mongo RockMongo]!
 
