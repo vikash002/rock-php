@@ -1,3 +1,9 @@
 #sidebar rock_mongo_toc
 
  * SLiM Stack: <a href="http://www.getslimstack.net/">SLiM stands for Scala + Lift + MongoDB</a>
+ * <a href="http://lostprofile.de/pamp.pre.dmg.zip">PAMP</a>
+{{{
+PAMP MUST be copied to the Applications folder to work! The password promt pops up due to required root privileges for port 80 (all ports < 1024 require root access).
+
+PS: Apache as well as PHP are compiled with the minimal amount of modules and extensions to work!
+}}}
