@@ -9,7 +9,7 @@ Author: Orsa Studio
 SLiM is the fastest and easiest way to get started on Windows with these technologies. 
 
 
- == <a href="http://lostprofile.de/pamp.pre.dmg.zip">PAMP</a>: integrated environment on Mac OS X ==
+ == <a href="http://bit.ly/pamp-stack">PAMP</a>: integrated environment on Mac OS X ==
 
 Author: Anton Zering <anton.zering@gmail.com>
 
