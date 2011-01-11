@@ -4,10 +4,14 @@
 
  == <a href="http://www.getslimstack.net/">SLiM Stack</a>: SLiM stands for Scala + Lift + MongoDB ==
 
+Author: Orsa Studio
+
 SLiM is the fastest and easiest way to get started on Windows with these technologies. 
 
 
  == <a href="http://lostprofile.de/pamp.pre.dmg.zip">PAMP</a>: integrated environment on Mac OS X ==
+
+Author: Anton Zering <anton.zering@gmail.com>
 
 PAMP MUST be copied to the Applications folder to work! The password promt pops up due to required root privileges for port 80 (all ports < 1024 require root access).
 
