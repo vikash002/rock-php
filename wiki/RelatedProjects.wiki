@@ -13,6 +13,6 @@ SLiM is the fastest and easiest way to get started on Windows with these technol
 
 Author: Anton Zering <anton.zering@gmail.com>
 
-PAMP MUST be copied to the Applications folder to work! The password promt pops up due to required root privileges for port 80 (all ports < 1024 require root access).
+PAMP MUST be copied to the Applications folder in order to work! The password promt pops up due to required root privileges for port 80 (all ports < 1024 require root access).
 
 PS: Apache as well as PHP are compiled with the minimal amount of modules and extensions to work!
