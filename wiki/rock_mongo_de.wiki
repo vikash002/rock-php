@@ -65,7 +65,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # spiel mit deiner MongoDB :-)
 
 Tutorials:
- * <a href="http://blog.jam.net.ve/2011/01/11/instalando-rockmongo-interfaz-de-administracion-web-para-mongodb/">Instalando RockMongo – Interfaz de Administracion web para MongoDB</a>
+ * [http://blog.jam.net.ve/2011/01/11/instalando-rockmongo-interfaz-de-administracion-web-para-mongodb/ Instalando RockMongo – Interfaz de Administracion web para MongoDB]
 
 = Downloads =
 
