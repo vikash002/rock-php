@@ -64,6 +64,9 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # ... und mit dem eingestellten Admin-Usernamen und -passwort einloggen (Benutzername: admin, Passwort: admin ist standardmäßig vorgegeben)
  # spiel mit deiner MongoDB :-)
 
+Tutorials:
+ * <a href="http://blog.jam.net.ve/2011/01/11/instalando-rockmongo-interfaz-de-administracion-web-para-mongodb/">Instalando RockMongo – Interfaz de Administracion web para MongoDB</a>
+
 = Downloads =
 
 Das Paket kann unter [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] bezogen werden.
