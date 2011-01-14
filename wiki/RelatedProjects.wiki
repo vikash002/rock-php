@@ -3,6 +3,7 @@
 <wiki:toc/>
 
 == SLiM Stack: SLiM stands for Scala + Lift + MongoDB ==
+----------
 
 [http://www.getslimstack.net/ Download Here]
 
@@ -12,6 +13,7 @@ SLiM is the fastest and easiest way to get started on Windows with these technol
 
 
 == PAMP: integrated environment on Mac OS X ==
+----------
 
 [http://bit.ly/pamp-stack Download Here]
 
@@ -21,7 +23,11 @@ PAMP MUST be copied to the Applications folder in order to work!
 
 PS: Apache as well as PHP are compiled with the minimal amount of modules and extensions to work!
 
+
+
+
 == `RockMongo` on Windows - integrated environment on Windows ==
+----------
 
 [http://code.google.com/p/rock-php/downloads/list Download Here]
 
