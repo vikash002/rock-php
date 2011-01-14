@@ -46,5 +46,5 @@ To configure RockMongo, go to web/rockmongo/config.php .
 
 
 === Net Ports ===
-Web port:     7788
-Fastcgi port: 9111
+ * Web port:     7788
+ * Fastcgi port: 9111
