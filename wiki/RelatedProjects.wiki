@@ -17,7 +17,7 @@ PAMP MUST be copied to the Applications folder in order to work!
 
 PS: Apache as well as PHP are compiled with the minimal amount of modules and extensions to work!
 
- == RockMongo on Windows ==
+ == `RockMongo` on Windows ==
 
  === About ===
 RockMongo runtime environment on Windows with:
