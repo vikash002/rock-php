@@ -58,6 +58,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Installation ==
  
+ # install PHP runtime environment (such like Apache Httpd server, Nginx) ...
  # [http://code.google.com/p/rock-php/downloads/list download] the package
  # unzip the files to your disk, under root of your site
  # open the config.php (index.php before v1.0.5) with your convenient editor, change host, port, admins and so on to yours
