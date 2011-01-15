@@ -58,7 +58,13 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Installation ==
  
- # install PHP runtime environment (such like Apache Httpd server, Nginx) ...
+== Requirements ==
+ * A  web server to run PHP, Such as Apache Httpd, Nginx ...
+ * PHP - You need PHP v5.1.6 or newer, with session support.
+   * To support MongoDB connection, you need [http://www.php.net/manual/en/mongo.installation.php php_mongo] extension installed   
+
+== Quick Install ==
+
  # [http://code.google.com/p/rock-php/downloads/list download] the package
  # unzip the files to your disk, under root of your site
  # open the config.php (index.php before v1.0.5) with your convenient editor, change host, port, admins and so on to yours
