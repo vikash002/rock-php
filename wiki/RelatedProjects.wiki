@@ -2,6 +2,8 @@
 
 <wiki:toc/>
 
+= Windows =
+
 == SLiM Stack: SLiM stands for Scala + Lift + MongoDB ==
 ----------
 
@@ -10,20 +12,6 @@
 Author: Orsa Studio
 
 SLiM is the fastest and easiest way to get started on Windows with these technologies. 
-
-
-== PAMP: integrated environment on Mac OS X ==
-----------
-
-[http://bit.ly/pamp-stack Download Here]
-
-Author: Anton Zering <anton.zering@gmail.com>
-
-PAMP MUST be copied to the Applications folder in order to work!
-
-PS: Apache as well as PHP are compiled with the minimal amount of modules and extensions to work!
-
-
 
 
 == `RockMongo` on Windows - integrated environment on Windows ==
@@ -54,3 +42,16 @@ To configure RockMongo, go to web/rockmongo/config.php .
 === Net Ports ===
  * Web port:     7788
  * Fastcgi port: 9111
+
+= Mac OS X =
+
+== PAMP: integrated environment on Mac OS X ==
+----------
+
+[http://bit.ly/pamp-stack Download Here]
+
+Author: Anton Zering <anton.zering@gmail.com>
+
+PAMP MUST be copied to the Applications folder in order to work!
+
+PS: Apache as well as PHP are compiled with the minimal amount of modules and extensions to work!
