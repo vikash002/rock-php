@@ -74,7 +74,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 == Integrated Environment ==
 
-Some integrated environment can be found [RelatedProjects here], help you install [rock_mongo RockMongo] quickly without downloading and installing web server and php.
+Some integrated environment can be found [RelatedProjects here], help you start [rock_mongo RockMongo] quickly without downloading and installing web server and php.
 
 = Downloads =
 
