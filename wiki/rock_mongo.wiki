@@ -72,6 +72,9 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # Login with admin username and password, which is set "admin" and "admin" as default
  # play with your MongoDBs!
 
+== Integrated Environment ==
+ Some integrated environment can be found [RelatedProjects here], help you install RockMongo quickly without downloading and installing web server and php.
+
 = Downloads =
 
 You can download the package at [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list].
