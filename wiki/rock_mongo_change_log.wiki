@@ -3,6 +3,10 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.1 - coming soon
+ * New authentication  
+ * Map Reduce
+
 v1.0.12 - 2011-03-08
  * Fix date format in tooltip 
  * Fix MongoCursor->fields() undefined error
