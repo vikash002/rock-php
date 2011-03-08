@@ -3,6 +3,19 @@
 
 = [rock_mongo RockMongo] change logs =
 
+v1.0.12 - 2011-03-08
+ * Fix date format in tooltip 
+ * Fix MongoCursor->fields() undefined error
+ * Convert unicode in json to utf-8 when editing 
+ * Edit installation construction
+ * Add Chinese tranditional translation
+ * Fixed features for capped collection
+ * Fix slashes bug when magic_quotes_gpc is on in php.ini
+ * Fix bug: field "0" can not be updated or removed
+ * Remember data format when query
+ * Add "Logout" link when no servers can be connected
+ * Fix records count in left bar when no data in the collection
+
 v1.0.11 - 2011-01-09
  * Add true, false and null to allowed PHP codes in saving data
  * Highlight current collection in left menu when it reload
