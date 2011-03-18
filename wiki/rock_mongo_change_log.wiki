@@ -1,4 +1,5 @@
 #summary RockMongo change logs
+#labels Featured
 #sidebar rock_mongo_toc
 
 = [rock_mongo RockMongo] change logs =
