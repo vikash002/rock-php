@@ -22,3 +22,11 @@ mongodb安装好了，得一个像phpmyadmin的工具管理这些数据。
 所以推荐使用 RockMongo
 }}}
 from http://www.liifei.com/?p=702
+
+*RockMongo admin beszerzése*
+{{{
+Rendben, elhisszük neki és használjuk is, tényleg nem szólhatunk rá egyetlen rossz szót sem, kivéve egy dolgot!
+Nagyon zavaró, hogy ‘gyárilag’ Curier New betűtípust használ, ami ráadásul ebben a pici méretben még nehezebben olvasható.
+Ha nem vagyunk restek, ezt könnyedén átírhatjuk a megfelelő CSS fájlban.
+}}}
+from http://monguz.mowo.hu/2010/12/06/rockmongo-admin-beszerzese/
