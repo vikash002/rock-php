@@ -61,6 +61,9 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 其他平台的运行环境可以在这里找到：
 http://code.google.com/p/rock-php/wiki/RelatedProjects
 
+== 相关文章 ==
+[http://onlyzq.blog.51cto.com/1228/516623 MongoDB+RockMongo安装]
+
 = 下载 =
 
 请点击 [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] 下载最新的版本.
