@@ -5,7 +5,7 @@
 = [rock_mongo RockMongo] change logs =
 
 v1.1 - coming soon
- * New authentication  
+ * New Authentication  
  * Map Reduce
  * GridFS Viewer
 
