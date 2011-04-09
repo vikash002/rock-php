@@ -4,10 +4,15 @@
 
 = [rock_mongo RockMongo] change logs =
 
-v1.1 - coming soon
- * New Authentication  
+Future Version
+ * Sharding
+ * Replication
  * Map Reduce
  * GridFS Viewer
+
+v1.1 - coming soon
+ * New Authentication  
+ * Plugins
 
 v1.0.12 - 2011-03-08
  * Fix date format in tooltip 
