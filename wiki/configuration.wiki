@@ -2,7 +2,7 @@
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
-
+= Mongo =
 ==mongo_name==
 v1.1. mongo server name
 {{{
@@ -45,6 +45,7 @@ v1.1. mongo connection timeout
 $MONGO["servers"][$i]["mongo_timeout"] = 30;
 }}}
 
+= Controls =
 == control_auth ==
 v1.1. enable control users, works only if mongo_auth=false
 {{{
@@ -58,6 +59,8 @@ $MONGO["servers"][$i]["control_users"]["myusername"] = "mypassword";
 $MONGO["servers"][$i]["control_users"]["iwind"] = "123456";
 }}}
 
+
+= UI =
 == ui_only_dbs ==
 v1.1. databases to display, can be a string or an array.
 {{{
