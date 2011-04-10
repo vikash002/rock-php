@@ -21,7 +21,7 @@ $MONGO["servers"][$i]["mongo_port"] = "27017";
 }}}
 
 == mongo_user ==
-v1.1. mongo authentication user name, works only if mongo_auth=false
+v1.1. mongo authentication user name, works only if mongo_auth=false.
 {{{
 $MONGO["servers"][$i]["mongo_user"] = "";
 }}}
@@ -33,7 +33,7 @@ $MONGO["servers"][$i]["mongo_pass"] = "";
 }}}
 
 == mongo_auth ==
-v1.1. enable mongo authentication?
+v1.1. enable mongo authentication? 
 {{{
 $MONGO["servers"][$i]["mongo_auth"] = false;
 }}}
@@ -53,17 +53,20 @@ $MONGO["servers"][$i]["control_auth"] = true;
 == control_users ==
 v1.1. one of control users [USERNAME]=PASSWORD, works only if mongo_auth=false
 {{{
-$MONGO["servers"][$i]["control_users"]["admin"] = "admin";
+$MONGO["servers"][$i]["control_users"]["myusername"] = "mypassword";
+$MONGO["servers"][$i]["control_users"]["iwind"] = "123456";
 }}}
 
 == ui_only_dbs ==
-v1.1. databases to display
+v1.1. databases to display, can be a string or an array.
 {{{
-$MONGO["servers"][$i]["ui_only_dbs"] = "";
+$MONGO["servers"][$i]["ui_only_dbs"] = "admin,local";//a string
+$MONGO["servers"][$i]["ui_only_dbs"] = array( "admin", "local" );//an array
 }}}
 
 == ui_hide_dbs ==
-v1.1. databases to hide
+v1.1. databases to hide, can be a string or an array.
 {{{
-$MONGO["servers"][$i]["ui_hide_dbs"] = "";
+$MONGO["servers"][$i]["ui_hide_dbs"] = "shop,merchant";//a string
+$MONGO["servers"][$i]["ui_hide_dbs"] = array("shop", "merchant");//an array
 }}}
