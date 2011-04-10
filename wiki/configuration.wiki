@@ -1,1 +1,69 @@
 #sidebar rock_mongo_toc
+
+<wiki:toc/>
+
+==mongo_name==
+v1.1. mongo server name
+{{{
+$MONGO["servers"][$i]["mongo_name"] = "Localhost";
+}}}
+
+== mongo_host ==
+v1.1. mongo host
+{{{
+$MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
+}}}
+
+== mongo_port ==
+v1.1. mongo_port
+{{{
+$MONGO["servers"][$i]["mongo_port"] = "27017";
+}}}
+
+== mongo_user ==
+v1.1. mongo authentication user name, works only if mongo_auth=false
+{{{
+$MONGO["servers"][$i]["mongo_user"] = "";
+}}}
+
+== mongo_pass ==
+v1.1. mongo authentication password, works only if mongo_auth=false
+{{{
+$MONGO["servers"][$i]["mongo_pass"] = "";
+}}}
+
+== mongo_auth ==
+v1.1. enable mongo authentication?
+{{{
+$MONGO["servers"][$i]["mongo_auth"] = false;
+}}}
+
+== mongo_timeout ==
+v1.1. mongo connection timeout
+{{{
+$MONGO["servers"][$i]["mongo_timeout"] = 30;
+}}}
+
+== control_auth ==
+v1.1. enable control users, works only if mongo_auth=false
+{{{
+$MONGO["servers"][$i]["control_auth"] = true;
+}}}
+
+== control_users ==
+v1.1. one of control users [USERNAME]=PASSWORD, works only if mongo_auth=false
+{{{
+$MONGO["servers"][$i]["control_users"]["admin"] = "admin";
+}}}
+
+== ui_only_dbs ==
+v1.1. databases to display
+{{{
+$MONGO["servers"][$i]["ui_only_dbs"] = "";
+}}}
+
+== ui_hide_dbs ==
+v1.1. databases to hide
+{{{
+$MONGO["servers"][$i]["ui_hide_dbs"] = "";
+}}}
