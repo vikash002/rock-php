@@ -12,7 +12,7 @@
  *
  * »Others
  * [rock_mongo_change_log ChangeLog]
- * [Configuration configuration]
+ * [configuration Configuration]
  * [FAQ FAQ]
  * [TheySays They Says]
  * [RelatedProjects Related Projects]
