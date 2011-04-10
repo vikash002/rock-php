@@ -4,6 +4,7 @@
 
 == How to disable authentication? ==
 
+=== v1.0.x ===
 From v1.0.10, there is two ways to disable authentication.
 
 First way, set server option "auth_enabled" to false in config.php:
@@ -33,6 +34,14 @@ Second way, remove or comment all of admins:
 			//"admin" => "admin"
 		)
 	)
+}}}
+
+=== v1.1 ===
+set mongo_auth and control_auth to false:
+{{{
+$MONGO["servers"][$i]["mongo_auth"] = false;
+...
+$MONGO["servers"][$i]["control_auth"] = false;
 }}}
 
 == PHP Error: Fatal error: Allowed memory size when export a large DB == 
