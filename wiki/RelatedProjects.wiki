@@ -24,7 +24,7 @@ RockMongo runtime environment on Windows with:
  * Nginx
  * PHP
 
-But without MongoDB, you need to install it by yourself.
+But without MongoDB, you need to install it by yourself, and installation directory should not contain non-English characters, such as Chinese, Japanese and Korean are all not allowed.
 
 
 === Usage ===
@@ -36,7 +36,7 @@ rockclean.bat          clean log files
 
 
 === Configuration ===
-To configure RockMongo, go to web/rockmongo/config.php .
+To configure RockMongo, go to web\rockmongo\config.php .
 
 
 === Net Ports ===
