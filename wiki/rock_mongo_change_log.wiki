@@ -11,7 +11,7 @@ Future Version
  * GridFS Viewer
 
 v1.1 - coming soon
- * We received 250 USD donation from Zipline Games, Inc
+ * We received 250 USD donation from Zipline Games, Inc, great thanks, we will release 1.1 as soon as possible.
  * New Authentication  
  * Plugins
 
