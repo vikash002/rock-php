@@ -9,7 +9,7 @@
 == API ==
 === Filters ===
 ==== SERVER_FILTER ====
-filter server before authentication, give a chance to integrate authentication with your own system.
+filter server before authentication, give you a chance to integrate authentication with your own system.
  * Params:
      * MServer $server the server which current user want to log-in
  * Demo:
