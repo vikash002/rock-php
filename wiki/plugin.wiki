@@ -4,6 +4,10 @@
 
 == How plug-in works ==
 
+RockMongo plug-in feature allow you to filter data and listen events.
+
+You can enable and disable plug-ins in app/configs/rplugin.php.
+
 == Write a plug-in ==
 
 There is only four steps to write a plug-in for RockMongo:
@@ -48,7 +52,20 @@ $plugins["myplugin"]["enabled"] = 1;
 
 
 == Filters ==
-==== SERVER_FILTER ====
+=== CONFIG_FILTER ===
+Filter RockMongo configuration.
+
+ * Params:
+     * $MONGO global variable
+ * Demo:
+{{{
+function config_filter($MONGO) {
+	$MONGO["servers"][0]["mongo_name"] = "TestServer";
+        //other configurations goes below
+}
+}}}
+
+=== SERVER_FILTER ===
 filter server before authentication, give you a chance to integrate authentication with your own system.
  * Params:
      * MServer $server the server which current user want to log-in
@@ -76,3 +93,6 @@ RFilter::add("SERVER_FILTER", "my_login_filter");
 
 
 == Events ==
+=== RENDER_PAGE_HEADER_EVENT ===
+
+=== RENDER_PAGE_FOOTER_EVENT ===
