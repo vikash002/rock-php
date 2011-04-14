@@ -66,10 +66,11 @@ Filter RockMongo configuration.
      * $MONGO global variable
  * Demo:
 {{{
-function config_filter($MONGO) {
+function my_config_filter($MONGO) {
 	$MONGO["servers"][0]["mongo_name"] = "TestServer";
         //other configurations goes below
 }
+RFilter::add("CONFIG_FILTER", "my_config_filter");
 }}}
 
 === SERVER_FILTER ===
