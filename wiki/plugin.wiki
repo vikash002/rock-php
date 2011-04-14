@@ -11,10 +11,10 @@ You can enable and disable plug-ins in app/configs/rplugin.php.
 == Write a plug-in ==
 
 There is only four steps to write a plug-in for RockMongo:
- * create a plug-in directory under app/plugins
- * put a init.php in the directory we created
- * call api to add data filters and event listeners in init.php
- * enable your plug-in in app/configs/rplugin.php
+ # create a plug-in directory under app/plugins
+ # put a init.php in the directory we created
+ # call api to add data filters and event listeners in init.php
+ # enable your plug-in in app/configs/rplugin.php
 
 For instance, you want to create a plug-in named myplugin, so your directory structure will look like this:
 {{{
