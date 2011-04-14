@@ -6,8 +6,48 @@
 
 == Write a plug-in ==
 
+There is only four steps to write a plug-in for RockMongo:
+ * create a plug-in directory under app/plugins
+ * put a init.php in the directory we created
+ * call api to add data filters and event listeners in init.php
+ * enable your plug-in in app/configs/rplugin.php
+
+For instance, you want to create a plug-in named myplugin, so your directory structure will look like this:
+{{{
+   app/
+      plugins/ 
+         myplugin/
+             init.php
+}}}
+
+init.php:
+{{{
+<?php
+
+function my_filter($data) {
+  //filter data
+}
+
+RFilter::add("SUPPORTED FILTER NAME", "my_filter");
+
+?>
+}}}
+
+rplugin.php:
+{{{
+<?php
+
+$plugins["myplugin"]["enabled"] = 1;
+//$plugins["myplugin2"]["enabled"] = 1;
+//$plugins["myplugin3"]["enabled"] = 1;
+
+?>
+}}}
+
 == API ==
-=== Filters ===
+
+
+== Filters ==
 ==== SERVER_FILTER ====
 filter server before authentication, give you a chance to integrate authentication with your own system.
  * Params:
@@ -35,4 +75,4 @@ RFilter::add("SERVER_FILTER", "my_login_filter");
 }}}
 
 
-=== Events ===
+== Events ==
