@@ -49,7 +49,14 @@ $plugins["myplugin"]["enabled"] = 1;
 }}}
 
 == API ==
+ * RFilter::add($dataType, $filter, $priority = -1) - add a filter
+ * RFilter::remove($dataType, $filter) - remove a filter
+ * RFilter::stop($dataType) - stop a filter chain
+ * REvent::listen($event, $callback, $priority = -1) - add a event listener
+ * REvent::remove($event, $callback)  - remove a event listener
+ * REvent::stop($event) - stop event propagation
 
+ 
 
 == Filters ==
 === CONFIG_FILTER ===
@@ -93,6 +100,18 @@ RFilter::add("SERVER_FILTER", "my_login_filter");
 
 
 == Events ==
+
 === RENDER_PAGE_HEADER_EVENT ===
+Fired when render page header.
+
+Demo:
+{{{
+function my_header_event() {
+   echo "<link rel=\"stylesheet\" href=\"/css/my.css\" />\n";//add my own stylesheets
+}
+
+REvent::listen("RENDER_PAGE_HEADER_EVENT", "my_header_event");
+}}}
 
 === RENDER_PAGE_FOOTER_EVENT ===
+Fired when render page footer.
