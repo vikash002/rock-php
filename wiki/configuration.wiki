@@ -3,6 +3,14 @@
 
 <wiki:toc/>
 = Mongo =
+
+== mongo_auth vs control_auth ==
+If mongo_auth set to true, users must log-in on UI interface with their username and password given in MongoDB. So, mongo_user, mongo_pass and mongo_db in configuration will be invalid now.
+
+If control_auth set to true, users must log-in with control_users option, mongo_user, mongo_pass and mongo_db will be used if they present in configuration.
+
+If all of them set to false, users will log-in without any username and password needed.
+
 ==mongo_name==
 v1.1. mongo server name
 {{{
@@ -19,6 +27,12 @@ $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 v1.1. mongo_port
 {{{
 $MONGO["servers"][$i]["mongo_port"] = "27017";
+}}}
+
+== mongo_db ==
+v1.1. default mongo db name to connect, works only if mongo_auth=false
+{{{
+$MONGO["servers"][$i]["mongo_db"] = "my_own_database";
 }}}
 
 == mongo_user ==
