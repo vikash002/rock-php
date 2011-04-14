@@ -90,7 +90,8 @@ function my_login_filter (MServer $server) {
     $server->setMongoHost("192.168.1.100");
     $server->setMongoPort(27017);
     $server->setMongoUser("...");
-    $server->setMongoPass("...")
+    $server->setMongoPass("...");
+    $server->setMongoDb("..."); 
 
     //let the user log-in in without internal authentication filter
     $server->setControlAuth(false);
