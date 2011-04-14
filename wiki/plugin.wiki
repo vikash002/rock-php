@@ -20,7 +20,8 @@ function my_login_filter (MServer $server) {
     //connect to your MySQL or other system to decide which mongo host to log-in
 
     //set mongo parameters
-    $server->setMongoHost("192.168.1.1");
+    $server->setMongoHost("192.168.1.100");
+    $server->setMongoPort(27017);
     $server->setMongoUser("...");
     $server->setMongoPass("...")
 
@@ -30,7 +31,7 @@ function my_login_filter (MServer $server) {
 
     //now user log-in with your own authentication
 }
-RFilter::add("SERVER_FILTER", my_login_filter);
+RFilter::add("SERVER_FILTER", "my_login_filter");
 }}}
 
 
