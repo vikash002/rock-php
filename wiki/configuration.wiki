@@ -11,7 +11,7 @@ If mongo_auth set to true, users must log-in on UI interface with their username
 
 If control_auth set to true, users must log-in with control_users option, mongo_user, mongo_pass and mongo_db will be used if they present in configuration.
 
-If all of them set to false, users will log-in without any username and password needed.
+If all of them are set to false, users will log-in without any username and password needed.
 
 === mongo_auth Demo ===
 You log-in the system with username, password and dbname from MongoDB.
