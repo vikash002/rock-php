@@ -42,6 +42,22 @@ $MONGO["servers"][$i]["control_users"]["admin"] = "admin";
 $MONGO["servers"][$i]["control_users"]["iwind"] = "123456";//more admins goes below
 }}}
 
+=== no authentication Demo ===
+You log-in the system without any username and password.
+
+{{{
+$MONGO["servers"][$i]["mongo_name"] = "Localhost";
+$MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
+$MONGO["servers"][$i]["mongo_port"] = "27017";
+$MONGO["servers"][$i]["mongo_timeout"] = 30;
+//$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";
+//$MONGO["servers"][$i]["mongo_user"] = "MONGO_USERNAME"
+//$MONGO["servers"][$i]["mongo_pass"] = "MONGO_PASSWORD";
+$MONGO["servers"][$i]["mongo_auth"] = false;//disable mongo authentication
+
+$MONGO["servers"][$i]["control_auth"] = false;//disable control authentication
+}}}
+
 ==mongo_name==
 v1.1. mongo server name
 {{{
