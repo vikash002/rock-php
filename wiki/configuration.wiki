@@ -103,7 +103,7 @@ $MONGO["servers"][$i]["ui_hide_system_collections"] = false;
 }}}
 
 = Configuration for MongoHQ =
-There are two ways to log-in mongodb located on MongoHQ/
+There are two ways to log-in mongodb located on MongoHQ.
 
 == Log-in with MongoHQ account ==
 {{{
