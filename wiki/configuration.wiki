@@ -89,6 +89,13 @@ $MONGO["servers"][$i]["ui_hide_dbs"] = "shop,merchant";//a string
 $MONGO["servers"][$i]["ui_hide_dbs"] = array("shop", "merchant");//an array
 }}}
 
+== ui_hide_collections ==
+v1.1. collections to hide, can be a string or an array, each collection name can be a valid regular expression:
+{{{
+$MONGO["servers"][$i]["ui_hide_collections"] = "users,admins";//hide users and admins colleciton
+$MONGO["servers"][$i]["ui_hide_collections"] = "mail_(.*)";//hide all collections whose prefix is "mail_"
+}}}
+
 == ui_hide_system_collections ==
 v1.1. if we should hide system collections, such like system.js, system.indexes, etc. Set to false as default.
 {{{
