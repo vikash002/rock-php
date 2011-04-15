@@ -48,7 +48,7 @@ $MONGO["servers"][$i]["mongo_pass"] = "";
 }}}
 
 == mongo_auth ==
-v1.1. enable mongo authentication? 
+v1.1. enable mongo authentication? If the option is enabled, you have to log-in the system with your account and password added in MongoDB.
 {{{
 $MONGO["servers"][$i]["mongo_auth"] = false;
 }}}
@@ -103,3 +103,29 @@ $MONGO["servers"][$i]["ui_hide_system_collections"] = false;
 }}}
 
 = Configuration for MongoHQ =
+There are two ways to log-in mongodb located on MongoHQ/
+
+== Log-in with MongoHQ account ==
+{{{
+$MONGO["servers"][$i]["mongo_name"] = "MongoHQ";
+$MONGO["servers"][$i]["mongo_host"] = "flame.local.mongohq.com";
+$MONGO["servers"][$i]["mongo_port"] = "27075";
+$MONGO["servers"][$i]["mongo_auth"] = true;
+$i ++;
+}}}
+
+Then in log-in screen, you should input the username and password, dbname which registered on MongoHQ, then click "log-in".
+
+== Log-in with control account ==
+{{{
+$MONGO["servers"][$i]["mongo_host"] = "flame.local.mongohq.com";
+$MONGO["servers"][$i]["mongo_port"] = "27075";
+$MONGO["servers"][$i]["mongo_user"] = "MongoHQ account";
+$MONGO["servers"][$i]["mongo_pass"] = "MongoHQ password";
+$MONGO["servers"][$i]["mongo_db"] = "MongoHQ Database Name";
+$MONGO["servers"][$i]["mongo_auth"] = false;
+$MONGO["servers"][$i]["control_users"]["admin"] = "admin";//control name and password are "admin"
+$i ++;
+}}}
+
+Change mongo_user, mongo_pass and mongo_db to yours, then you can log-in with control name and password (admin/admin in this example).
