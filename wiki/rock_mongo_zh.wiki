@@ -72,6 +72,8 @@ http://code.google.com/p/rock-php/wiki/RelatedProjects
 
 如果有任何Bug或者建议，请发送邮件给 iwind.liu@gmail.com ，非常感谢。
 
+同时，我们也接收捐助，支付宝帐号：iwind_php@163.com
+
 = 截图 ==
 
 Copy image address to your browser to see larger picture.
