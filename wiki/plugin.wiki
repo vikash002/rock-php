@@ -65,7 +65,7 @@ $plugins["myplugin"]["enabled"] = 1;
 Filter RockMongo configuration.
 
  * Params:
-     * $MONGO global variable
+     * array $MONGO global $MONGO variable
  * Demo:
 {{{
 function my_config_filter($MONGO) {
