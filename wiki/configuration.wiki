@@ -12,6 +12,8 @@ If control_auth set to true, users must log-in with control_users option, mongo_
 If all of them set to false, users will log-in without any username and password needed.
 
 === mongo_auth Demo ===
+You log-in the system with username, password and dbname from MongoDB.
+
 {{{
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
@@ -21,6 +23,8 @@ $MONGO["servers"][$i]["mongo_auth"] = true;//enable mongo authentication
 }}}
 
 === control_auth Demo ===
+You log-in the system with control username and password.
+
 {{{
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
