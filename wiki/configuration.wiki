@@ -5,7 +5,7 @@
 = Mongo =
 
 == mongo_auth vs control_auth ==
-If mongo_auth set to true, users must log-in on UI interface with their username and password given in MongoDB. So, mongo_user, mongo_pass and mongo_db in configuration will be invalid now.
+If mongo_auth set to true, users must log-in on UI interface with their username and password given in MongoDB (added by db.addUser()). So, mongo_user, mongo_pass and mongo_db in configuration will be unavailable now.
 
 If control_auth set to true, users must log-in with control_users option, mongo_user, mongo_pass and mongo_db will be used if they present in configuration.
 
