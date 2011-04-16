@@ -10,7 +10,7 @@
  * [rock_mongo_fr French]
  * [rock_mongo_br Português]
  *
- * »Others
+ * »Documents
  * [rock_mongo_change_log ChangeLog]
  * [configuration Configuration]
  * [plugin Plug-in]
