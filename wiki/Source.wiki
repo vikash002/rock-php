@@ -2,12 +2,12 @@
 
 You can checkout the source code from svn repository, without any password needed.
 
-=== 1.0.x ===
-{{{
-svn://ifphp.cn/rockmongo/src-1.0.x
-}}}
-
 === 1.1.x ===
 {{{
 svn://ifphp.cn/rockmongo/src
+}}}
+
+=== 1.0.x ===
+{{{
+svn://ifphp.cn/rockmongo/src-1.0.x
 }}}
