@@ -22,7 +22,7 @@ v1.1.0 - 2011-04-17
  * Represent date using ISODate()
  * Add confirmation to "Apply to all" buttons
  * Change all of float_value options to double_value
- * Fix db[_name] bug, now your collection name's prefix can be "_"
+ * Fix db[_name] bug, now your collection name's prefix can be "`_`"
  * Fix empty collection issue
  * Support numberic _id string
 
