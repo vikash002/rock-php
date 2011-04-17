@@ -71,7 +71,7 @@ Filter RockMongo configuration.
 {{{
 function my_config_filter($MONGO) {
 	$MONGO["servers"][0]["mongo_name"] = "TestServer";
-        //other configurations goes below
+        //other configurations go below
 }
 RFilter::add("CONFIG_FILTER", "my_config_filter");
 }}}
@@ -210,13 +210,13 @@ You may write your own controllers in plug-in, just make the folder seems like t
          controllers/
             index.php
             db.php
-            MORE CONTROLLERS GOES HERE
+            MORE CONTROLLERS GO HERE
          views/
             index/ 
                about.php
             db/
                index.php
-            MORE VIEWS GOES HERE
+            MORE VIEWS GO HERE
 }}}
 
 Visit your actions in controller by adding "@" to action name in url:
