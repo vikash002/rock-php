@@ -104,6 +104,85 @@ RFilter::add("SERVER_FILTER", "my_login_filter");
 }}}
 
 
+=== SERVER_MENU_FILTER===
+Add or remove server menu items.
+  * Params:
+     * array $items menu items
+  * Demo:
+{{{
+function my_server_menu_filter ($items) {
+	$items[] = array( 
+		"action" => ("@test.index.index"),
+		"name" => "Test"
+	);
+}
+
+RFilter::add("SERVER_MENU_FILTER", "my_server_menu_filter");
+}}}
+
+=== DB_MENU_FILTER ===
+Add or remove database menu items.
+  * Params:
+      * array $items menu items
+      * string $dbName database name
+  * Demo:
+{{{
+function my_db_menu_filter ($items, $dbName) {
+	$items[] = array(
+		"action" => "@test.index.db",
+		"params" => array ("db" => $dbName), 
+		"name" => "MR"
+	);
+}
+
+RFilter::add("DB_MENU_FILTER", "my_db_menu_filter");
+}}}
+
+=== COLLECTION_MENU_FILTER ===
+Add or remove collection menu items.
+ * Params:
+      * array $items menu items
+      * string $dbName database name
+      * string $collectionName collection name
+ * Demo:
+{{{
+function my_collection_menu_filter ($items, $dbName, $collectionName) {
+	$items[] = array(
+		"action" => "@test.index.collection",
+		"params" => array( "db" => $dbName, "collection" => $collectionName ),
+		"name" => "My Menu"
+	);
+}
+
+RFilter::add("COLLECTION_MENU_FILTER", "my_collection_menu_filter");
+}}}
+
+=== DOC_MENU_FILTER ===
+Add or remove document menu items.
+ * Params:
+    * array $items menu items
+    * string $dbName database name
+    * string $collectionName collection name
+    * mixed $docId document id (use rock_real_id($docId) to convert it to real id)
+    * integer $docIndex document index
+ * Demo:
+{{{
+function my_doc_menu_filter ($items, $dbName, $collectionName, $docId, $docIndex) {
+	$items[] = array(
+		"action" => "@test.index.doc",
+		"params" => array( "db" => $dbName, "collection" => $collectionName, "docId" => ($docId), "docIndex" => $docIndex ),
+		"name" => "My Menu"
+	);
+	$items[] = array(
+		"action" => "@test.index.doc",
+		"params" => array( "db" => $dbName, "collection" => $collectionName, "docId" => ($docId), "docIndex" => $docIndex ),
+		"name" => "My Menu2"
+	);
+}
+
+RFilter::add("DOC_MENU_FILTER", "my_doc_menu_filter");
+}}}
+
 == Events ==
 
 === RENDER_PAGE_HEADER_EVENT ===
