@@ -176,7 +176,7 @@ $MONGO["servers"][$i]["mongo_user"] = "MongoHQ account";
 $MONGO["servers"][$i]["mongo_pass"] = "MongoHQ password";
 $MONGO["servers"][$i]["mongo_db"] = "MongoHQ Database Name";
 $MONGO["servers"][$i]["mongo_auth"] = false;
-$MONGO["servers"][$i]["control_users"]["admin"] = "admin";//control name and password are "admin"
+$MONGO["servers"][$i]["control_users"]["admin"] = "123456";//control name  is "admin", password is "123456"
 $i ++;
 }}}
 
