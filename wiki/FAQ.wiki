@@ -61,3 +61,7 @@ memory_limit = 1024M
 }}}
 
 Then you need to restart your web server (apache, nginx ....).
+
+== How to connect MongoHQ ==
+
+See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/configuration#Configuration_for_MongoHQ
