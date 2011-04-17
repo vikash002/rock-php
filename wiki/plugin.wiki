@@ -9,6 +9,8 @@ RockMongo plug-in feature allow you to filter data and listen events.
 
 You registered data filters and event listeners in your plug-in, then RockMongo call them in a proper time.
 
+You also can write controllers in your plug-in, so you can add more operation buttons to server/db/collection/document, users click button then go to your controllers.
+
 You may enable and disable plug-ins in app/configs/rplugin.php.
 
 == Write a plug-in ==
