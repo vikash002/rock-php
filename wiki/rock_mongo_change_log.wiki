@@ -26,7 +26,7 @@ v1.1.0 - 2011-04-17
  * Fix empty collection issue
  * Support numberic _id string
 
-v1.1 - coming soon
+v1.1 - 2011-04-12
  * We received 250 USD donation from Zipline Games, Inc, great thanks, we will release 1.1 as soon as possible.
 
 v1.0.12 - 2011-03-08
