@@ -40,7 +40,7 @@ $MONGO["servers"][$i]["mongo_auth"] = false;//disable mongo authentication
 
 $MONGO["servers"][$i]["control_auth"] = true;//enable control authentication
 $MONGO["servers"][$i]["control_users"]["admin"] = "admin";
-$MONGO["servers"][$i]["control_users"]["iwind"] = "123456";//more admins goes below
+$MONGO["servers"][$i]["control_users"]["iwind"] = "123456";//more admins go below
 $i ++;
 }}}
 
