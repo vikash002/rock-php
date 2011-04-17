@@ -22,9 +22,9 @@ v1.1.0 - 2011-04-17
  * Represent date using ISODate()
  * Add confirmation to "Apply to all" buttons
  * Change all of float_value options to double_value
- * Fix db[_name] bug, now your collection name's prefix can be "`_`"
+ * Fix db[`_`name] bug, now your collection name's prefix can be "`_`"
  * Fix empty collection issue
- * Support numberic _id string
+ * Support numberic `_`id string
 
 v1.1 - 2011-04-12
  * We received 250 USD donation from Zipline Games, Inc, great thanks, we will release 1.1 as soon as possible.
