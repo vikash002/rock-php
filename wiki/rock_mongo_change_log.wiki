@@ -14,7 +14,7 @@ v1.1.0(beta) - 2011-04-17
  * Upgrade Notice
      * from 1.0.x to v1.1.0: if you will not use new features, just overwrite files, excluding config.php, that's all; Or you should re-configure the system
  * *Implement basic theme feature*
- * *[configuration New Configurations]*
+ * *[configuration MongoDb authentication and other new configurations]*
  * *[plugin Implement Plug-in feature:Filters, Events and Plug-in controllers]*
  * Load language packages automatically
  * Choose language after log-in on the top bar
