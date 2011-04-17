@@ -210,13 +210,13 @@ You may write your own controllers in plug-in, just make the folder seems like t
          controllers/
             index.php
             db.php
-            YOUR CONTROLLERS GOES HERE
+            MORE CONTROLLERS GOES HERE
          views/
             index/ 
                about.php
             db/
                index.php
-            YOUR VIEWS GOES HERE
+            MORE VIEWS GOES HERE
 }}}
 
 Visit your actions in controller by adding "@" to action name in url:
