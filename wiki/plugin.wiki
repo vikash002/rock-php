@@ -223,7 +223,8 @@ You may write your own controllers in plug-in, just make the folder seems like t
 
 Visit your actions in controller by adding "@" to action name in url:
 {{{
-http://MY_HOST/index.php?action=@YOUR_PLUGIN_NAME.index.db
+http://MY_HOST/index.php?action=@YOUR_PLUGIN_NAME.CONTROLLER_NAME.ACTION_NAME
+http://MY_HOST/index.php?action=@my_plugin.index.about
 http://MY_HOST/index.php?action=@my_plugin.db.remove
 }}}
 
