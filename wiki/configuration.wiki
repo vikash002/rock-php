@@ -164,7 +164,7 @@ $MONGO["servers"][$i]["mongo_auth"] = true;
 $i ++;
 }}}
 
-Then in log-in screen, you should input the username and password, dbname which registered on MongoHQ, then click "log-in".
+Then on log-in screen, you should input the username and password, dbname which registered on MongoHQ, then click "log-in".
 
 == Log-in with control account ==
 {{{
