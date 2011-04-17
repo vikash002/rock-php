@@ -199,3 +199,5 @@ REvent::listen("RENDER_PAGE_HEADER_EVENT", "my_header_event");
 
 === RENDER_PAGE_FOOTER_EVENT ===
 Fired when render page footer.
+
+== Controllers in Plug-in
