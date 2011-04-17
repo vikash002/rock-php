@@ -113,7 +113,7 @@ Add or remove server menu items.
 function my_server_menu_filter ($items) {
 	$items[] = array( 
 		"action" => ("@test.index.index"),
-		"name" => "Test"
+		"name" => "My Menu"
 	);
 }
 
@@ -131,7 +131,7 @@ function my_db_menu_filter ($items, $dbName) {
 	$items[] = array(
 		"action" => "@test.index.db",
 		"params" => array ("db" => $dbName), 
-		"name" => "MR"
+		"name" => "My Menu"
 	);
 }
 
