@@ -204,7 +204,7 @@ Fired when render page footer.
 
 == Controllers in Plug-in ==
 
-You may write your own controllers in plug-in, just make the folder seems like this:
+You may write your own controllers in plug-in, just make the folders look like this:
 {{{
    plugins/
      YOUR_PLUGIN_NAME/
