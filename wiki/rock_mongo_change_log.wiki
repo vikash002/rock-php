@@ -12,8 +12,8 @@ Future Version
 
 v1.1.0 - 2011-04-17
  * *Implement basic theme feature*
- * *New Configurations*
- * *Implement Plug-in feature:Filters, Events and Plug-in controllers*
+ * *[configuration New Configurations]*
+ * *[plugin Implement Plug-in feature:Filters, Events and Plug-in controllers]*
  * Load language packages automatically
  * Choose language after log-in on the top bar
  * Automatic language proposition based on browser settings
