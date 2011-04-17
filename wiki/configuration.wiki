@@ -61,6 +61,8 @@ $MONGO["servers"][$i]["control_auth"] = false;//disable control authentication
 $i ++;
 }}}
 
+= Mongo =
+
 ==mongo_name==
 v1.1. mongo server name
 {{{
