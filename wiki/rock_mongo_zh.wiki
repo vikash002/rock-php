@@ -72,7 +72,11 @@ http://code.google.com/p/rock-php/wiki/RelatedProjects
 
 如果有任何Bug或者建议，请发送邮件给 iwind.liu@gmail.com ，非常感谢。
 
-同时，我们也接收捐助，支付宝帐号：iwind_php@163.com
+同时，我们也接收捐助：
+ * 支付宝帐号：iwind_php@163.com
+ * Paypal帐号：iwind.liu@gmail.com
+
+在捐助后，您可以发送邮件到 iwind.liu@gmail.com 通知我们。
 
 = 截图 ==
 
