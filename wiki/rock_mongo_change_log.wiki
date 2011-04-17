@@ -10,7 +10,7 @@ Future Version
  * Map Reduce
  * GridFS Viewer
 
-v1.1.0 - 2011-04-17
+v1.1.0(beta) - 2011-04-17
  * Upgrade Notice
      * from 1.0.x to v1.1.0: if you will not use new features, just overwrite files, excluding config.php, that's all; Or you should re-configure the system
  * *Implement basic theme feature*
