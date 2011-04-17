@@ -176,8 +176,8 @@ $MONGO["servers"][$i]["mongo_user"] = "MongoHQ account";
 $MONGO["servers"][$i]["mongo_pass"] = "MongoHQ password";
 $MONGO["servers"][$i]["mongo_db"] = "MongoHQ Database Name";
 $MONGO["servers"][$i]["mongo_auth"] = false;
-$MONGO["servers"][$i]["control_users"]["admin"] = "123456";//control name  is "admin", password is "123456"
+$MONGO["servers"][$i]["control_users"]["admin"] = "123456";//control user name  is "admin", password is "123456"
 $i ++;
 }}}
 
-Change mongo_user, mongo_pass and mongo_db to yours, then you can log-in with control name and password (admin/admin in this example).
+Change mongo_user, mongo_pass and mongo_db to yours, then you can log-in with control user name and password (admin/123456 in this example).
