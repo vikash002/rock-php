@@ -200,4 +200,40 @@ REvent::listen("RENDER_PAGE_HEADER_EVENT", "my_header_event");
 === RENDER_PAGE_FOOTER_EVENT ===
 Fired when render page footer.
 
-== Controllers in Plug-in
+== Controllers in Plug-in ==
+
+You may write your own controllers in plug-in, just make the folder seems like this:
+{{{
+   plugins/
+     YOUR_PLUGIN_NAME/
+         init.php
+         controllers/
+            index.php
+            db.php
+            YOUR CONTROLLERS GOES HERE
+         views/
+            index/ 
+               about.php
+            db/
+               index.php
+            YOUR VIEWS GOES HERE
+}}}
+
+Visit your actions in controller by adding "@" to action name in url:
+{{{
+http://MY_HOST/index.php?action=@YOUR_PLUGIN_NAME.index.db
+http://MY_HOST/index.php?action=@my_plugin.db.remove
+}}}
+
+Your controller should always inherit from BaseController class:
+{{{
+<?php
+
+import("classes.BaseController");
+
+class IndexController extends BaseController {
+    public function doAbout() {
+         //action codes here ...
+    }
+}
+}}}
