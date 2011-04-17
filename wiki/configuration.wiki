@@ -2,7 +2,7 @@
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
-= Configuration =
+= Authentication =
 
 == mongo_auth vs control_auth ==
 Once you begin to use RockMongo, you should decide which authentication method to use.
