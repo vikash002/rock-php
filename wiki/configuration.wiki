@@ -2,14 +2,14 @@
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
-= Mongo =
+= Configuration =
 
 == mongo_auth vs control_auth ==
 Once you begin to use RockMongo, you should decide which authentication method to use.
 
 If mongo_auth set to true, users must log-in on UI interface with their username and password given in MongoDB (added by db.addUser()). So, mongo_user, mongo_pass and mongo_db in configuration will be unavailable now.
 
-If control_auth set to true and mongo_auth set to false, users must log-in with control_users option, mongo_user, mongo_pass and mongo_db will be used if they present in configuration.
+If control_auth set to true and mongo_auth set to false, users must log-in with control_users option, mongo_user, mongo_pass and mongo_db will be used if they present in configuration. For security reason, you should always change the default control username and password to a complex one.
 
 If all of them are set to false, users will log-in without any username and password needed.
 
