@@ -239,4 +239,6 @@ class IndexController extends BaseController {
          //action codes here ...
     }
 }
+
+?>
 }}}
