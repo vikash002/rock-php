@@ -10,10 +10,24 @@ Future Version
  * Map Reduce
  * GridFS Viewer
 
+v1.1.0 - 2011-04-17
+ * *Implement basic theme feature*
+ * *New Configurations*
+ * *Implement Plug-in feature:Filters, Events and Plug-in controllers*
+ * Load language packages automatically
+ * Choose language after log-in on the top bar
+ * Automatic language proposition based on browser settings
+ * Fix a display bug on IE9
+ * Change timezone from default to UTC
+ * Represent date using ISODate()
+ * Add confirmation to "Apply to all" buttons
+ * Change all of float_value options to double_value
+ * Fix db[_name] bug, now your collection name's prefix can be "_"
+ * Fix empty collection issue
+ * Support numberic _id string
+
 v1.1 - coming soon
  * We received 250 USD donation from Zipline Games, Inc, great thanks, we will release 1.1 as soon as possible.
- * New Authentication  
- * Plug-ins
 
 v1.0.12 - 2011-03-08
  * Fix date format in tooltip 
