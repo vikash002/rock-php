@@ -42,7 +42,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  # あなたのMongoDBs
  # では、プレイ！ 
 
->> [入れてみた]MongoDBのGUIツール – rock_mongo http://mickey1st.com/blog/?p=211]
+>> [http://mickey1st.com/blog/?p=211 入れてみた]MongoDBのGUIツール – rock_mongo]
 
 =ダウンロード= 
 
