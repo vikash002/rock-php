@@ -62,7 +62,8 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 http://code.google.com/p/rock-php/wiki/RelatedProjects
 
 == 相关文章 ==
-[http://onlyzq.blog.51cto.com/1228/516623 MongoDB+RockMongo安装]
+ * [http://onlyzq.blog.51cto.com/1228/516623 MongoDB+RockMongo安装]
+ * [http://www.superzc.com/archives/142 NOSQL mongodb 安装及简介]
 
 = 下载 =
 
