@@ -1,8 +1,8 @@
 #summary RockMongo documents side bar
 
 Languages
-   * [rock_mongo English] 
-   * [rock_mongo_zh 简体中文] 
+* [rock_mongo English] 
+* [rock_mongo_zh 简体中文] 
    * [rock_mongo_tw 繁體中文] 
    * [rock_mongo_jp 日本語]
    * [rock_mongo_de Deutsch]
