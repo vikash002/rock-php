@@ -1,8 +1,8 @@
 #summary RockMongo documents side bar
 
-Languages
-* [rock_mongo English] 
-* [rock_mongo_zh 简体中文] 
+   * *Languages*
+   * [rock_mongo English] 
+   * [rock_mongo_zh 简体中文] 
    * [rock_mongo_tw 繁體中文] 
    * [rock_mongo_jp 日本語]
    * [rock_mongo_de Deutsch]
@@ -10,7 +10,7 @@ Languages
    * [rock_mongo_fr French]
    * [rock_mongo_br Português]
    
-Documents
+   * *Documents*
    * [rock_mongo_change_log ChangeLog]
    * [configuration Configuration]
    * Plug-in
