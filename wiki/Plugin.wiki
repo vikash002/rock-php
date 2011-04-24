@@ -1,5 +1,5 @@
 #labels Featured
 #sidebar rock_mongo_toc
 
-  * [plugin For Developers]
-  * [PluginUsage For Users]
+  * [plugin For Developers Here » ]
+  * [PluginUsage For Users Here » ]
