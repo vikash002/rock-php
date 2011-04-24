@@ -10,13 +10,13 @@
    * [rock_mongo_fr French]
    * [rock_mongo_br Português]
    
-   * *Documents*
-   * [rock_mongo_change_log ChangeLog]
-   * [configuration Configuration]
-   * Plug-in
-     * [plugin For Developers]
-     * [PluginUsage For Users]
-   * [FAQ FAQ]
-   * [TheySays They Says]
-   * [RelatedProjects Related Projects]
-   * [Donation Donation]
+ * *Documents*
+ * [rock_mongo_change_log ChangeLog]
+ * [configuration Configuration]
+ * Plug-in
+  * [plugin For Developers]
+  * [PluginUsage For Users]
+ * [FAQ FAQ]
+ * [TheySays They Says]
+ * [RelatedProjects Related Projects]
+ * [Donation Donation]
