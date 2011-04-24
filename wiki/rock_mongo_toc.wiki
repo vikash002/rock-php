@@ -9,7 +9,7 @@ Languages
    * [rock_mongo_ru Русский]
    * [rock_mongo_fr French]
    * [rock_mongo_br Português]
-   *
+   
 Documents
    * [rock_mongo_change_log ChangeLog]
    * [configuration Configuration]
