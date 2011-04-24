@@ -1,2 +1,4 @@
+#sidebar rock_mongo_toc
+
   * [plugin For Developers]
   * [PluginUsage For Users]
