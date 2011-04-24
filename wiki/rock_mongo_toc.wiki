@@ -13,7 +13,7 @@
  * »Documents
  * [rock_mongo_change_log ChangeLog]
  * [configuration Configuration]
- * plugin Plug-in
+ * Plug-in
    * [plugin For Developers]
    * [PluginUsage For Users]
     
