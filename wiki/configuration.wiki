@@ -128,7 +128,7 @@ $MONGO["servers"][$i]["control_users"]["iwind"] = "123456";
 
 = UI =
 == ui_only_dbs ==
-v1.1. databases to display, can be a string or an array.
+v1.1. databases to display, can be a string or an array. If this list is not empty, then databases not in this list all will be invisible.
 {{{
 $MONGO["servers"][$i]["ui_only_dbs"] = "admin,local";//a string
 $MONGO["servers"][$i]["ui_only_dbs"] = array( "admin", "local" );//an array
