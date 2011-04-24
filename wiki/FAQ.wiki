@@ -60,7 +60,7 @@ max_execution_time = 1200
 memory_limit = 1024M
 }}}
 
-Then you need to restart your web server (apache, nginx ....).
+Then you need to restart your web server (apache, fastcgi ....).
 
 == How to connect MongoHQ ==
 
