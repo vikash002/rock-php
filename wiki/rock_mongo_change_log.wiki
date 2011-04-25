@@ -4,11 +4,12 @@
 
 = RockMongo change logs =
 
-Future Version
- * Sharding
- * Replication
- * Map Reduce
- * GridFS Viewer
+v1.1.0 - 2011-04-25
+ * Change datezone utc to UTC
+ * Fix db.getcollections() exception throwing on mongos
+ * Add new page size:100, 200
+ * Fix ISODate() issue
+ * Plug-in system improvement
 
 v1.1.0(beta) - 2011-04-17
  * Upgrade Notice
