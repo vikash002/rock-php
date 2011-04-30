@@ -2,6 +2,8 @@
 
 <wiki:toc/>
 
+[Plugin] > For Developers
+
 == How plug-in works ==
 
 RockMongo plug-in feature allow you to filter data and listen events.
