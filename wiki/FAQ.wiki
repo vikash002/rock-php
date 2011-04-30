@@ -5,7 +5,7 @@
 == How to quickly start with RockMongo? ==
 If you are working on Windows or Mac OS X, there are [RelatedProjects softwares] can help you quickly start with RockMongo, without installing PHP manually.
 
-[https://github.com/synthomat/ParmaStack/downloads ParmaStack] also include a Unix version, you can check out it.
+[https://github.com/synthomat/ParmaStack/downloads ParmaStack] also include a Unix version, you can check out it and have a try.
 
 == How to disable authentication? ==
 
@@ -43,4 +43,3 @@ See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/confi
 Basically, it was caused by php_mongo.so (or php_mongo.dll on windows), you should upgrade your php_mongo driver from http://pecl.php.net/package/mongo or download a latest dll from http://us.php.net/manual/en/mongo.installation.php#mongo.installation.windows.
 
 After new driver installation, restart your web server, and refresh the RockMongo, it will goes ok. Otherwise, you should send us php error log so that we can analyze the reason.
-
