@@ -2,10 +2,14 @@
 
 <wiki:toc/>
 
+= Installation =
+
 == How to quickly start with `RockMongo`? ==
 If you are working on Windows or Mac OS X, there are [RelatedProjects softwares] can help you quickly start with RockMongo, without installing PHP manually.
 
 [https://github.com/synthomat/ParmaStack/downloads ParmaStack] also includes a Unix version, you can check out it and have a try.
+
+= Configuration =
 
 == How to disable authentication? ==
 
@@ -37,6 +41,8 @@ Then you need to restart your web server (apache, fastcgi ....).
 == How to connect MongoHQ ==
 
 See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/configuration#Configuration_for_MongoHQ
+
+= Known issues =
 
 == How to fix 500/502 errors? ==
 
