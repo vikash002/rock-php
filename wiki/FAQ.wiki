@@ -20,6 +20,19 @@ $MONGO["servers"][$i]["mongo_auth"] = false;
 $MONGO["servers"][$i]["control_auth"] = false;
 }}}
 
+
+== How to connect MongoHQ ==
+
+See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/configuration#Configuration_for_MongoHQ
+
+= Known issues =
+
+== How to fix 500/502 errors? ==
+
+Basically, it was caused by php_mongo.so (or php_mongo.dll on windows), you should upgrade your php_mongo driver from http://pecl.php.net/package/mongo or download a latest dll from http://us.php.net/manual/en/mongo.installation.php#mongo.installation.windows.
+
+After new driver installation, restart your web server, and refresh the RockMongo, it will goes ok. Otherwise, you should send us php error log so that we can analyze the reason.
+
 == PHP Error: Fatal error: Allowed memory size when export a large DB == 
 
 To export a large db, you need to change your configures in your php.ini :
@@ -37,15 +50,3 @@ memory_limit = 1024M
 }}}
 
 Then you need to restart your web server (apache, fastcgi ....).
-
-== How to connect MongoHQ ==
-
-See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/configuration#Configuration_for_MongoHQ
-
-= Known issues =
-
-== How to fix 500/502 errors? ==
-
-Basically, it was caused by php_mongo.so (or php_mongo.dll on windows), you should upgrade your php_mongo driver from http://pecl.php.net/package/mongo or download a latest dll from http://us.php.net/manual/en/mongo.installation.php#mongo.installation.windows.
-
-After new driver installation, restart your web server, and refresh the RockMongo, it will goes ok. Otherwise, you should send us php error log so that we can analyze the reason.
