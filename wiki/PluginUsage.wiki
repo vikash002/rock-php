@@ -2,6 +2,8 @@
 
 <wiki:toc/>
 
+[Plugins] &raquo;
+
 == How to install plug-in? ==
 
 When you want to install a plug-in, just download it and extract files to plugins directory: 
