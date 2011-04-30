@@ -2,7 +2,7 @@
 
 <wiki:toc/>
 
-[Plugins] &raquo;
+[Plugin] > For Users
 
 == How to install plug-in? ==
 
