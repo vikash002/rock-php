@@ -5,7 +5,7 @@
 == How to quickly start with RockMongo? ==
 If you are working on Windows or Mac OS X, there are [RelatedProjects softwares] can help you quickly start with RockMongo, without installing PHP manually.
 
-[https://github.com/synthomat/ParmaStack/downloads ParmaStack] also include a Unix version, you can check out it and have a try.
+[https://github.com/synthomat/ParmaStack/downloads ParmaStack] also includes a Unix version, you can check out it and have a try.
 
 == How to disable authentication? ==
 
