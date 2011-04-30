@@ -32,3 +32,9 @@ Then you need to restart your web server (apache, fastcgi ....).
 == How to connect MongoHQ ==
 
 See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/configuration#Configuration_for_MongoHQ
+
+== How to fix 500/502 errors? ==
+
+Basically, it was caused by php_mongo.so (or php_mongo.dll on windows), you should upgrade your php_mongo driver from http://pecl.php.net/package/mongo or download a latest dll from http://us.php.net/manual/en/mongo.installation.php#mongo.installation.windows.
+
+After new driver installation, restart your web server, and refresh the RockMongo, it will goes ok. Otherwise, you should send us php error log so that we can analyze the reason.
