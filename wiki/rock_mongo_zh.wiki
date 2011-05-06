@@ -2,7 +2,50 @@
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
- 
+
+= 安装 =
+
+== 需求 ==
+ * 一个能运行PHP的Web服务器，比如Apache Httpd, Nginx ...
+ * PHP - 需要PHP v5.1.6或更高版本，需要支持SESSION
+       * 为了能连接MongoDB，你需要安装[http://www.php.net/manual/en/mongo.installation.php php_mongo]扩展
+
+== 快速安装 == 
+
+ # [http://code.google.com/p/rock-php/downloads/list 下载安装包]
+ # 解压到你的网站目录下
+ # 用编辑器打开config.php (v1.0.5版本以前是index.php)，修改host, port, admins等参数
+ # 在浏览器中访问index.php，比如说：http://localhost/rockmongo/index.php
+ # 使用用户名和密码登录，默认为"admin"和"admin"
+ # 开始玩转MongoDB!
+
+== 集成环境 ==
+
+如果没有PHP运行环境，可以在 http://code.google.com/p/rock-php/downloads/list 下载在Windows上运行的集成环境，让你快速开始玩转RockMongo。
+
+其他平台的运行环境可以在这里找到：
+http://code.google.com/p/rock-php/wiki/RelatedProjects
+
+== 相关文章 ==
+ * [http://onlyzq.blog.51cto.com/1228/516623 MongoDB+RockMongo安装]
+ * [http://www.superzc.com/archives/142 NOSQL mongodb 安装及简介]
+ * [http://www.shubo.info/?tag=rockmongo MONGODB1.8安装、分布式自动分片(AUTO-SHARDING)配置备忘]
+
+
+
+= 下载 =
+
+请点击 [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] 下载最新的版本.
+
+= Bug和建议 =
+
+如果有任何Bug或者建议，请发送邮件给 iwind.liu@gmail.com ，非常感谢。
+
+同时，我们也接收以下形式的捐助：
+ * 支付宝帐号：iwind_php@163.com
+ * Paypal帐号：iwind.liu@gmail.com
+
+在捐助后，您可以发送邮件到 iwind.liu@gmail.com 通知我们。
 
 = 简介 =
 
@@ -35,47 +78,7 @@
    * 下载文件
  * 更多好用的特征开发中 ...
 
-= 安装 =
-
-== 需求 ==
- * 一个能运行PHP的Web服务器，比如Apache Httpd, Nginx ...
- * PHP - 需要PHP v5.1.6或更高版本，需要支持SESSION
-       * 为了能连接MongoDB，你需要安装[http://www.php.net/manual/en/mongo.installation.php php_mongo]扩展
-
-== 快速安装 == 
-
- # [http://code.google.com/p/rock-php/downloads/list 下载安装包]
- # 解压到你的网站目录下
- # 用编辑器打开config.php (v1.0.5版本以前是index.php)，修改host, port, admins等参数
- # 在浏览器中访问index.php，比如说：http://localhost/rockmongo/index.php
- # 使用用户名和密码登录，默认为"admin"和"admin"
- # 开始玩转MongoDB!
-
-== 集成环境 ==
-
-如果没有PHP运行环境，可以在 http://code.google.com/p/rock-php/downloads/list 下载在Windows上运行的集成环境，让你快速开始玩转RockMongo。
-
-其他平台的运行环境可以在这里找到：
-http://code.google.com/p/rock-php/wiki/RelatedProjects
-
-== 相关文章 ==
- * [http://onlyzq.blog.51cto.com/1228/516623 MongoDB+RockMongo安装]
- * [http://www.superzc.com/archives/142 NOSQL mongodb 安装及简介]
- * [http://www.shubo.info/?tag=rockmongo MONGODB1.8安装、分布式自动分片(AUTO-SHARDING)配置备忘]
-
-= 下载 =
-
-请点击 [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] 下载最新的版本.
-
-= Bug和建议 =
-
-如果有任何Bug或者建议，请发送邮件给 iwind.liu@gmail.com ，非常感谢。
-
-同时，我们也接收以下形式的捐助：
- * 支付宝帐号：iwind_php@163.com
- * Paypal帐号：iwind.liu@gmail.com
-
-在捐助后，您可以发送邮件到 iwind.liu@gmail.com 通知我们。
+http://ifphp.cn/rockmongo/screenshots/show.png
 
 = 截图 ==
 
