@@ -35,9 +35,6 @@
    * 下载文件
  * 更多好用的特征开发中 ...
 
-http://ifphp.cn/rockmongo/screenshots/show.png
-
-
 = 安装 =
 
 == 需求 ==
