@@ -64,6 +64,7 @@ http://code.google.com/p/rock-php/wiki/RelatedProjects
 == 相关文章 ==
  * [http://onlyzq.blog.51cto.com/1228/516623 MongoDB+RockMongo安装]
  * [http://www.superzc.com/archives/142 NOSQL mongodb 安装及简介]
+ * [http://www.shubo.info/?tag=rockmongo MONGODB1.8安装、分布式自动分片(AUTO-SHARDING)配置备忘]
 
 = 下载 =
 
