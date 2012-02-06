@@ -84,6 +84,9 @@ You can download the package at [http://code.google.com/p/rock-php/downloads/lis
 
 Please feel free to report any bugs and issues to me, my email is: iwind.liu@gmail.com .
 
+= Videos = 
+[http://www.youtube.com/watch?v=zgFLcyBpRlA Manage MongoDB on OpenShift with RockMongo]
+
 = Screenshots ==
 
 Copy image address to your browser to see larger picture.
