@@ -1,5 +1,5 @@
 #summary RockMongo resumen, en el mejor basado en PHP MongoDB herramienta de administración de interfaz gráfica de usuario
-#Sidebar rock_mongo_toc
+#sidebar rock_mongo_toc
 
 <wiki:toc/>
 
