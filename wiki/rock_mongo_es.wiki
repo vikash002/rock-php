@@ -53,7 +53,7 @@ Características principales:
    * Descargar el archivo
  * Las características más va a venir pronto!
 
-http://ifphp.cn/rockmongo/screenshots/show.png~~V
+http://ifphp.cn/rockmongo/screenshots/show.png
 
 
 = Instalación ==
@@ -65,7 +65,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png~~V
 
 == Instalación rápida ==
 
- # [Http://code.google.com/p/rock-php/downloads/list download] el paquete
+ # [http://code.google.com/p/rock-php/downloads/list download] el paquete
  # Descomprimir los archivos en el disco, en la raíz de su sitio
  # Abrir el archivo config.php (index.php antes de v1.0.5) con su editor conveniente, el cambio de host, el puerto, los administradores y así sucesivamente a los suyos
  # Visitar el index.php en el navegador, por ejemplo: http://localhost/rockmongo/index.php
@@ -82,7 +82,7 @@ Puede descargar el paquete a [http://code.google.com/p/rock-php/downloads/list h
 
 = Bugs y Problemas =
 
-Por favor, no dude en informar de cualquier error y los problemas a mí, mi correo es: iwind.liu @ gmail.com.
+Por favor, no dude en informar de cualquier error y los problemas a mí, mi correo es: iwind.liu@gmail.com.
 
 = Videos =
 [Http://www.youtube.com/watch?v=zgFLcyBpRlA Administrar MongoDB en OpenShift con RockMongo]
