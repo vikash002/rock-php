@@ -53,4 +53,4 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 してください私にはバグや問題を報告する自由、自分のメールです：iwind.liu@gmail.com。
 
 = Articles = 
-[WindowsでRockMongoからmongoDBを使ってみよう http://www.eiplab.com/2011/07/mongodb-winxp-use003/]
+[http://www.eiplab.com/2011/07/mongodb-winxp-use003/ WindowsでRockMongoからmongoDBを使ってみよう ]
