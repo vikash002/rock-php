@@ -1,20 +1,3 @@
 #sidebar rock_mongo_toc
 
-==RockMongo==
-
-You can checkout the source code from svn repository, without any password needed.
-
-=== 1.1.x ===
-{{{
-svn://ifphp.cn/rockmongo/src
-}}}
-
-===  Plugins ===
-{{{
-svn://ifphp.cn/rockmongo/plugins
-}}}
-
-=== 1.0.x ===
-{{{
-svn://ifphp.cn/rockmongo/src-1.0.x
-}}}
+*[http://rockmongo.com/?action=source We will move to RockMongo.com, Here to go >>]*
