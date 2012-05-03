@@ -4,7 +4,7 @@
 <wiki:toc/>
 
 
-[Http://code.google.com/p/rock-php/downloads/list v1.1.0 (beta) disponible! Haga clic y descargar (17/04/2011)]
+[http://rockmongo.com/?action=downloads (beta) disponible! Haga clic y descargar (17/04/2011)]
 [rock_mongo_change_log cambios]
 
 Presente a sus amigos o enviar un comentario en su blog si te gusta [rock_mongo RockMongo]!
@@ -65,7 +65,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 == Instalación rápida ==
 
- # [http://code.google.com/p/rock-php/downloads/list download] el paquete
+ # [http://rockmongo.com/?action=downloads download] el paquete
  # Descomprimir los archivos en el disco, en la raíz de su sitio
  # Abrir el archivo config.php (index.php antes de v1.0.5) con su editor conveniente, el cambio de host, el puerto, los administradores y así sucesivamente a los suyos
  # Visitar el index.php en el navegador, por ejemplo: http://localhost/rockmongo/index.php
@@ -78,7 +78,7 @@ Algunos integrada del medio ambiente se puede encontrar [RelatedProjects aquí],
 
 = Descargas =
 
-Puede descargar el paquete a [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list].
+Puede descargar el paquete a [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads].
 
 = Bugs y Problemas =
 
