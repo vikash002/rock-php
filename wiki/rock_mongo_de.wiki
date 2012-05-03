@@ -4,7 +4,7 @@
 <wiki:toc/>
 
 
-`[`RockMongo [http://code.google.com/p/rock-php/downloads/list v1.1.0(beta) ist raus! Klicke zum Downloaden (2011-04-17)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`RockMongo [http://rockmongo.com/?action=downloads v1.1.0(beta) ist raus! Klicke zum Downloaden (2011-04-17)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Stell uns deinen Freunden vor oder poste ein Review in deinem Blog wenn du [rock_mongo RockMongo] magst!
 
@@ -57,7 +57,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Installation ==
  
- # Das Paket [http://code.google.com/p/rock-php/downloads/list downloaden]
+ # Das Paket [http://rockmongo.com/?action=downloads downloaden]
  # Paket im Wurzelverzeichnis der Website entpacken
  # Die Datei config.php (index.php vor Version v1.0.5) mit einem beliebigen Texteditor öffnen und die Parameter anpassen
  # Nun die index.php im Browser öffnen (z.B. http://localhost/rockmongo/index.php)...
@@ -69,7 +69,7 @@ Tutorials:
 
 = Downloads =
 
-Das Paket kann unter [http://code.google.com/p/rock-php/downloads/list http://code.google.com/p/rock-php/downloads/list] bezogen werden.
+Das Paket kann unter [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads] bezogen werden.
 
 = Bugs & Issues =
 
