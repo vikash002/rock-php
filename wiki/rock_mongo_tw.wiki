@@ -32,7 +32,7 @@
 
 = 下載 =
 
-請點擊 http://code.google.com/p/rock-php/downloads/list 下載最新的版本.
+請點擊 http://rockmongo.com/?action=downloads 下載最新的版本.
 
 = Bug和建議 =
 
