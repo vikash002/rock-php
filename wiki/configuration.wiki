@@ -20,7 +20,7 @@ You log-in the system with username, password and dbname from MongoDB.
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 $MONGO["servers"][$i]["mongo_port"] = "27017";
-$MONGO["servers"][$i]["mongo_timeout"] = 30;
+$MONGO["servers"][$i]["mongo_timeout"] = 0;
 $MONGO["servers"][$i]["mongo_auth"] = true;//enable mongo authentication
 $i ++;
 }}}
@@ -32,7 +32,7 @@ You log-in the system with control username and password.
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 $MONGO["servers"][$i]["mongo_port"] = "27017";
-$MONGO["servers"][$i]["mongo_timeout"] = 30;
+$MONGO["servers"][$i]["mongo_timeout"] = 0;
 //$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";
 //$MONGO["servers"][$i]["mongo_user"] = "MONGO_USERNAME"
 //$MONGO["servers"][$i]["mongo_pass"] = "MONGO_PASSWORD";
@@ -51,7 +51,7 @@ You log-in the system without any username and password.
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 $MONGO["servers"][$i]["mongo_port"] = "27017";
-$MONGO["servers"][$i]["mongo_timeout"] = 30;
+$MONGO["servers"][$i]["mongo_timeout"] = 0;
 //$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";
 //$MONGO["servers"][$i]["mongo_user"] = "MONGO_USERNAME"
 //$MONGO["servers"][$i]["mongo_pass"] = "MONGO_PASSWORD";
@@ -106,7 +106,7 @@ $MONGO["servers"][$i]["mongo_auth"] = false;
 }}}
 
 == mongo_timeout ==
-v1.1. mongo connection timeout
+v1.1. mongo connection timeout, set as "0" for never timeout.
 {{{
 $MONGO["servers"][$i]["mongo_timeout"] = 30;
 }}}
