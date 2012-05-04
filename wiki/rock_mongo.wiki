@@ -5,7 +5,7 @@
 <wiki:toc/>
 
 
-`[`[http://rockmongo.com/?action=downloads v1.1.0(beta) released! Click and download (2011-04-17)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`[http://rockmongo.com/?action=downloads v1.1.1 released! Click and download (2012-05-04)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Introduce us to your friends or post a review on your blog if you love [rock_mongo RockMongo]!
 
