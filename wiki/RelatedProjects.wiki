@@ -57,3 +57,12 @@ Download: [https://github.com/synthomat/ParmaStack/downloads Binary Download]
 Download the DMG, mount it, drag the whole ParmaStack folder to Applications. Thats it :-)
 <p>The Apache Webserver starts on Port 8080.<br />
 Configuration interface will come soon.</p>
+
+= Windows & Mac =
+
+== Softaculous AMPPS  =
+AMPPS is a WAMP and MAMP stack of Apache, MySQL, PHP, Perl & Python. 
+
+AMPPS enables you to focus more on using applications rather than maintaining them. 
+
+Download: [http://www.ampps.com/ http://www.ampps.com/]
