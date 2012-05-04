@@ -43,6 +43,12 @@ To configure RockMongo, go to web\rockmongo\config.php .
  * Web port:     7788
  * Fastcgi port: 9111
 
+== winginx ==
+
+Portable, versatile, multiproject, fast server based on nginx!
+
+Go to [http://winginx.com/ http://winginx.com/]
+
 = Mac OS X =
 
 == ParmaStack: integrated environment on Mac OS X (formerly known as PAMP) ==
@@ -66,9 +72,3 @@ AMPPS is a WAMP and MAMP stack of Apache, MySQL, PHP, Perl & Python.
 AMPPS enables you to focus more on using applications rather than maintaining them. 
 
 Download: [http://www.ampps.com/ http://www.ampps.com/]
-
-== winginx ==
-
-Portable, versatile, multiproject, fast server based on nginx!
-
-Go to [http://winginx.com/ http://winginx.com/]
