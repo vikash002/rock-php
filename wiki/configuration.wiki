@@ -118,6 +118,8 @@ v1.1. enable control users, works only if mongo_auth=false
 $MONGO["servers"][$i]["control_auth"] = true;
 }}}
 
+The issue with long-running query: [http://code.google.com/p/rock-php/issues/detail?id=177 http://code.google.com/p/rock-php/issues/detail?id=177]
+
 == control_users ==
 v1.1. one of control users [USERNAME]=PASSWORD, works only if mongo_auth=false
 {{{
