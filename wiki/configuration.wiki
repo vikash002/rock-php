@@ -113,6 +113,12 @@ $MONGO["servers"][$i]["mongo_timeout"] = 30;
 
 The issue with long-running query: [http://code.google.com/p/rock-php/issues/detail?id=177 http://code.google.com/p/rock-php/issues/detail?id=177]
 
+== mongo_options =
+v1.1.1. mongo connection options
+{{{
+$MONGO["servers"][$i] = array("replicaSet" => "xxxxx");
+}}}
+
 = Controls =
 == control_auth ==
 v1.1. enable control users, works only if mongo_auth=false
