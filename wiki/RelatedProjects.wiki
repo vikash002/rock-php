@@ -66,3 +66,9 @@ AMPPS is a WAMP and MAMP stack of Apache, MySQL, PHP, Perl & Python.
 AMPPS enables you to focus more on using applications rather than maintaining them. 
 
 Download: [http://www.ampps.com/ http://www.ampps.com/]
+
+== winginx ==
+
+Portable, versatile, multiproject, fast server based on nginx!
+
+Go to [http://winginx.com/ http://winginx.com/]
