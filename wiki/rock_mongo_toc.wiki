@@ -10,6 +10,7 @@
  * [rock_mongo_fr French]
  * [rock_mongo_br Português]
  * [rock_mongo_es Spanish]
+ * [rock_mongo_kr 한국의]
  * *Documents » *
  * [rock_mongo_change_log ChangeLog]
  * [configuration Configuration]
