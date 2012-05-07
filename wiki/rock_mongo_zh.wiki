@@ -31,6 +31,7 @@ http://code.google.com/p/rock-php/wiki/RelatedProjects
  * [http://www.superzc.com/archives/142 NOSQL mongodb 安装及简介]
  * [http://www.shubo.info/?tag=rockmongo MONGODB1.8安装、分布式自动分片(AUTO-SHARDING)配置备忘]
  * [http://hi.baidu.com/woaidelphi/blog/item/19f07613152df19c6438db36.html RockMongo查询操作用法总结]
+ * [http://www.mike.org.cn/articles/ubuntu-install-mongodb/ Ubuntu 10.04下安装MongoDB]
 
 
 
