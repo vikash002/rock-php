@@ -76,6 +76,10 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 Some integrated environment can be found [RelatedProjects here], help you start [rock_mongo RockMongo] quickly without downloading and installing web server and php.
 
+== Articles ==
+ * [http://www.benmccann.com/dev-blog/installing-rockmongo-gui-ubuntu/ Setting up the RockMongo GUI on Ubuntu]
+ 
+
 = Downloads =
 
 You can download the package at [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads].
