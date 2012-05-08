@@ -26,6 +26,16 @@ $MONGO["servers"][$i]["control_auth"] = false;
 
 See configuration for MongoHQ here: http://code.google.com/p/rock-php/wiki/configuration#Configuration_for_MongoHQ
 
+== How to change password ==
+See configuration for Authenticate: http://code.google.com/p/rock-php/wiki/configuration?ts=1336443212&updated=configuration#control_users 
+
+Basically, open _config.php_, and add lines below to right position:
+{{{
+$MONGO["servers"][$i]["control_users"]["myusername"] = "mypassword";
+$MONGO["servers"][$i]["control_users"]["iwind"] = "123456";
+}}}
+
+
 = Known issues =
 
 == How to fix 500/502 errors? ==
