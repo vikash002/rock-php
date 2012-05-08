@@ -4,6 +4,10 @@
 
 = RockMongo change logs =
 
+v1.1.2 - 2012-05-07
+* Italian translation, thanks to Andrea Cardinale
+* NumberInt, NumberLong
+
 v1.1.1 - 2011-05-04
  * Russian translation, thanks to Станислав Воробьёв  <stanislav.vorobyev@gmail.com>
  * Fix host switch bug
