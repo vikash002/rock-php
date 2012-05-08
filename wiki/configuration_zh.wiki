@@ -8,7 +8,6 @@
 = 认证 =
 
 == mongo_auth 和control_auth ==
-Once you begin to use RockMongo, you should decide which authentication method to use.
 在开始使用RockMongo之前，你需要决定使用哪种校验方式。
 
 如果mongo_auth被设成了true，用户必须使用MongoDB中的用户名和密码（由命令db.addUser()添加），所以配置中的mongo_user, mongo_pass和mongo_db就不再需要了，因为用户可以通过界面输入这些信息。
@@ -57,9 +56,9 @@ $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 $MONGO["servers"][$i]["mongo_port"] = "27017";
 $MONGO["servers"][$i]["mongo_timeout"] = 0;
-//$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";
-//$MONGO["servers"][$i]["mongo_user"] = "MONGO_USERNAME"
-//$MONGO["servers"][$i]["mongo_pass"] = "MONGO_PASSWORD";
+//$MONGO["servers"][$i]["mongo_db"] = "MONGO数据库名";
+//$MONGO["servers"][$i]["mongo_user"] = "MONGO用户名"
+//$MONGO["servers"][$i]["mongo_pass"] = "MONGO密码";
 $MONGO["servers"][$i]["mongo_auth"] = false;//禁用MongoDB校验
 
 $MONGO["servers"][$i]["control_auth"] = false;//禁用登录控制校验
