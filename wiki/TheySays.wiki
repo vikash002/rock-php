@@ -9,6 +9,8 @@
 
 from http://www.mongodb.org/display/DOCS/Admin+UIs
 
+<hr/>
+
 *liifei*
 
  mongodb安装好了，得一个像phpmyadmin的工具管理这些数据。
@@ -21,6 +23,8 @@ from http://www.mongodb.org/display/DOCS/Admin+UIs
  所以推荐使用 RockMongo
 
 from http://www.liifei.com/?p=702
+
+<hr/>
 
 *RockMongo admin beszerzése*
 
