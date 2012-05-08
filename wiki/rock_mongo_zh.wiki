@@ -35,7 +35,7 @@ http://code.google.com/p/rock-php/wiki/RelatedProjects
 
 = 配置 =
 
-[configuration_zh 在这里查看配置]
+[configuration_zh 在这里查看配置文档]
 
 = 下载 =
 
