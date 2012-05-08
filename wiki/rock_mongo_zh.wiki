@@ -33,7 +33,9 @@ http://code.google.com/p/rock-php/wiki/RelatedProjects
  * [http://hi.baidu.com/woaidelphi/blog/item/19f07613152df19c6438db36.html RockMongo查询操作用法总结]
  * [http://www.mike.org.cn/articles/ubuntu-install-mongodb/ Ubuntu 10.04下安装MongoDB]
 
+= 配置 =
 
+[configuration_zh 在这里查看配置]
 
 = 下载 =
 
