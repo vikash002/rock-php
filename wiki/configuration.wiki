@@ -4,6 +4,8 @@
 <wiki:toc/>
 = Authentication =
 
+Every configurations will be placed in _config.php_.
+
 == mongo_auth vs control_auth ==
 Once you begin to use RockMongo, you should decide which authentication method to use.
 
