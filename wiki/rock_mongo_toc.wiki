@@ -14,7 +14,7 @@
  * *Documents » *
  * [rock_mongo_change_log ChangeLog]
  * [configuration Configuration]
- * [configuration_zh 配置]
+ * [configuration_zh Configuration(简体中文)]
  * [Plugin Plug-in]
  * [FAQ FAQ]
  * [Source Source]
