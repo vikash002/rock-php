@@ -2,9 +2,11 @@
 #sidebar rock_mongo_toc
 
 <wiki:toc/>
-= Authentication =
+= Where to change? =
 
-Every configurations will be placed in _config.php_.
+Open _config.php_ under RockMongo installation directory, with your editor (such as notepad) or VI/VIM on Unix/Linux, every configuration options are placed there.  
+
+= Authentication =
 
 == mongo_auth vs control_auth ==
 Once you begin to use RockMongo, you should decide which authentication method to use.
