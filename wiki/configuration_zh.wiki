@@ -26,7 +26,7 @@ $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 $MONGO["servers"][$i]["mongo_port"] = "27017";
 $MONGO["servers"][$i]["mongo_timeout"] = 0;
-$MONGO["servers"][$i]["mongo_auth"] = true;//enable mongo authentication
+$MONGO["servers"][$i]["mongo_auth"] = true;//启用MongoDB校验
 $i ++;
 }}}
 
@@ -41,11 +41,11 @@ $MONGO["servers"][$i]["mongo_timeout"] = 0;
 //$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";
 //$MONGO["servers"][$i]["mongo_user"] = "MONGO_USERNAME"
 //$MONGO["servers"][$i]["mongo_pass"] = "MONGO_PASSWORD";
-$MONGO["servers"][$i]["mongo_auth"] = false;//disable mongo authentication
+$MONGO["servers"][$i]["mongo_auth"] = false;//禁用MongoDB校验
 
-$MONGO["servers"][$i]["control_auth"] = true;//enable control authentication
+$MONGO["servers"][$i]["control_auth"] = true;//启用登录控制校验
 $MONGO["servers"][$i]["control_users"]["admin"] = "admin";
-$MONGO["servers"][$i]["control_users"]["iwind"] = "123456";//more admins go below
+$MONGO["servers"][$i]["control_users"]["iwind"] = "123456";//在下面可以复制更多的用户
 $i ++;
 }}}
 
@@ -87,7 +87,7 @@ $MONGO["servers"][$i]["mongo_port"] = "27017";
 }}}
 
 == mongo_db ==
-v1.1. default mongo db name to connect, works only if mongo_auth=false
+v1.1. 默认连接的数据库名称，只有mongo_auth=false的时候生效。
 {{{
 $MONGO["servers"][$i]["mongo_db"] = "my_own_database";
 }}}
@@ -113,7 +113,7 @@ $MONGO["servers"][$i]["mongo_auth"] = false;
 == mongo_timeout ==
 v1.1. mongo connection timeout, set as "0" for never timeout.
 {{{
-$MONGO["servers"][$i]["mongo_timeout"] = 30;
+$MONGO["servers"][$i]["mongo_timeout"] = 0;
 }}}
 
 The issue with long-running query: [http://code.google.com/p/rock-php/issues/detail?id=177 http://code.google.com/p/rock-php/issues/detail?id=177]
