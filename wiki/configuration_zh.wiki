@@ -5,19 +5,21 @@
 
 使用编辑器（比如notepad或者VI/VIM命令）打开RockMongo安装目录下的_config.php_，所有的配置都在这里。
 
-= Authentication =
+= 认证 =
 
-== mongo_auth vs control_auth ==
+== mongo_auth 和control_auth ==
 Once you begin to use RockMongo, you should decide which authentication method to use.
+在开始使用RockMongo之前，你需要决定使用哪种校验方式。
 
-If mongo_auth set to true, users must log-in on UI interface with their username and password given in MongoDB (added by db.addUser()). So, mongo_user, mongo_pass and mongo_db in configuration will be unavailable now.
+如果mongo_auth被设成了true，用户必须使用MongoDB中的用户名和密码（由命令db.addUser()添加），所以配置中的mongo_user, mongo_pass和mongo_db就不再需要了，因为用户可以通过界面输入这些信息。
 
-If control_auth set to true and mongo_auth set to false, users must log-in with control_users option, mongo_user, mongo_pass and mongo_db will be used if they present in configuration. For security reason, you should always change the default control username and password to a complex one.
+如果control_auth被设置了true，而且mongo_auth设成了false，用户必须根据control_users选项的配置进行登录，mongo_user, mongo_pass和mongo_db就生效了。为了安全起见，安装完毕之后，应该尽快将默认的用户名和密码改成一个较为复杂的用户名和密码。
 
-If all of them are set to false, users will log-in without any username and password needed.
+如果mongo_auth和control_auth都被设置了false，则用户无需用户名和密码即可登录。
 
-=== mongo_auth Demo ===
-You log-in the system with username, password and dbname from MongoDB.
+
+=== mongo_auth示范 ===
+你使用MongoDB的用户名、密码和数据库名进行登录：
 
 {{{
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
@@ -28,8 +30,8 @@ $MONGO["servers"][$i]["mongo_auth"] = true;//enable mongo authentication
 $i ++;
 }}}
 
-=== control_auth Demo ===
-You log-in the system with control username and password.
+=== control_auth示范 ===
+你使用control_users中的配置进行登录。
 
 {{{
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
@@ -47,8 +49,8 @@ $MONGO["servers"][$i]["control_users"]["iwind"] = "123456";//more admins go belo
 $i ++;
 }}}
 
-=== no authentication Demo ===
-You log-in the system without any username and password.
+=== 无认证示范 ===
+你无需任何用户名和密码即可登录。
 
 {{{
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
@@ -58,28 +60,28 @@ $MONGO["servers"][$i]["mongo_timeout"] = 0;
 //$MONGO["servers"][$i]["mongo_db"] = "MONGO_DATABASE";
 //$MONGO["servers"][$i]["mongo_user"] = "MONGO_USERNAME"
 //$MONGO["servers"][$i]["mongo_pass"] = "MONGO_PASSWORD";
-$MONGO["servers"][$i]["mongo_auth"] = false;//disable mongo authentication
+$MONGO["servers"][$i]["mongo_auth"] = false;//禁用MongoDB校验
 
-$MONGO["servers"][$i]["control_auth"] = false;//disable control authentication
+$MONGO["servers"][$i]["control_auth"] = false;//禁用登录控制校验
 $i ++;
 }}}
 
 = Mongo =
 
-==mongo_name==
-v1.1. mongo server name
+== mongo_name ==
+v1.1. mongo服务器名字，可以是一个易懂的名字
 {{{
 $MONGO["servers"][$i]["mongo_name"] = "Localhost";
 }}}
 
 == mongo_host ==
-v1.1. mongo host
+v1.1. mongo主机地址
 {{{
 $MONGO["servers"][$i]["mongo_host"] = "127.0.0.1";
 }}}
 
 == mongo_port ==
-v1.1. mongo_port
+v1.1. mongo端口
 {{{
 $MONGO["servers"][$i]["mongo_port"] = "27017";
 }}}
