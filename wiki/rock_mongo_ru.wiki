@@ -44,7 +44,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Установка =
   
- # [http://rockmongo.com/?action=downloads Загрузить] установочный пакет
+ # [http://rockmongo.com/downloads Загрузить] установочный пакет
  # Распакуйте в рабочую директорию веб-сайта
  # Откройте config.php любимым редактором, настройте хост, порт, список администраторов и т.д.
  # Зайдите на index.php в браузере: http://localhost/rockmongo/index.php 
@@ -52,7 +52,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Загрузка  =
 
-Архив доступен по адресу [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads]. 
+Архив доступен по адресу [http://rockmongo.com/downloads http://rockmongo.com/downloads]. 
 
 = Ошибки и вопросы = 
 
