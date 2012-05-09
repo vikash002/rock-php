@@ -5,7 +5,7 @@
 <wiki:toc/>
 
 
-`[`[http://rockmongo.com/?action=downloads v1.1.1 released! Click and download (2012-05-04)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`[http://rockmongo.com/downloads v1.1.1 released! Click and download (2012-05-04)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Introduce us to your friends or post a review on your blog if you love [rock_mongo RockMongo]!
 
@@ -65,7 +65,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 == Quick Install ==
 
- # [http://rockmongo.com/?action=downloads download] the package
+ # [http://rockmongo.com/downloads download] the package
  # unzip the files to your disk, under root of your site
  # open the config.php (index.php before v1.0.5) with your convenient editor, change host, port, admins and so on to yours
  # visit the index.php in your browser, for example: http://localhost/rockmongo/index.php
@@ -82,7 +82,7 @@ Some integrated environment can be found [RelatedProjects here], help you start 
 
 = Downloads =
 
-You can download the package at [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads].
+You can download the package at [http://rockmongo.com/downloads http://rockmongo.com/downloads].
 
 = Bugs & Issues =
 
