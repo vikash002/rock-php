@@ -65,9 +65,9 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 == Instalación rápida ==
 
- # [http://rockmongo.com/?action=downloads download] el paquete
+ # [http://rockmongo.com/downloads download] el paquete
  # Descomprimir los archivos en el disco, en la raíz de su sitio
- # Abrir el archivo config.php (index.php antes de v1.0.5) con su editor conveniente, el cambio de host, el puerto, los administradores y así sucesivamente a los suyos
+ # Abrir el archivo config.php, con su editor conveniente, el cambio de host, el puerto, los administradores y así sucesivamente a los suyos
  # Visitar el index.php en el navegador, por ejemplo: http://localhost/rockmongo/index.php
  # Ingresar con nombre de usuario admin y la contraseña, que se establece "admin" y "admin" por defecto
  # Jugar con tus MongoDBs!
@@ -78,7 +78,7 @@ Algunos integrada del medio ambiente se puede encontrar [RelatedProjects aquí],
 
 = Descargas =
 
-Puede descargar el paquete a [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads].
+Puede descargar el paquete a [http://rockmongo.com/downloads http://rockmongo.com/downloads].
 
 = Bugs y Problemas =
 
