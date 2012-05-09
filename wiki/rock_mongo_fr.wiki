@@ -38,7 +38,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Installation =
   
- # [http://rockmongo.com/?action=downloads télécharger] le paquet 
+ # [http://rockmongo.com/downloads télécharger] le paquet 
  # Décompresser les fichiers sur votre disque, sous la racine de votre site 
  # Ouvrir le config.php avec votre éditeur de pratique, le changement d'accueil, le port, les admins et ainsi de suite à la vôtre 
  # Visitez le index.php dans votre navigateur, par exemple: http://localhost/rockmongo/index.php 
@@ -46,7 +46,7 @@ http://ifphp.cn/rockmongo/screenshots/show.png
 
 = Téléchargements =
 
-Vous pouvez télécharger le package à [http://rockmongo.com/?action=downloads http://rockmongo.com/?action=downloads]. 
+Vous pouvez télécharger le package à [http://rockmongo.com/downloads http://rockmongo.com/downloads]. 
 
 = Bugs & Problèmes =
 
