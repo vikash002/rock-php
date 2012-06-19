@@ -4,7 +4,7 @@
 <wiki:toc/>
 
 
-`[`RockMongo [http://rockmongo.com/?action=downloads v1.1.0(beta) ist raus! Klicke zum Downloaden (2011-04-17)]`]` `[`[rock_mongo_change_log Changelog]`]`
+`[`RockMongo [http://rockmongo.com/?action=downloads v1.1.2 ist raus! Klicke zum Downloaden (2012-05-07)]`]` `[`[rock_mongo_change_log Changelog]`]`
 
 Stell uns deinen Freunden vor oder poste ein Review in deinem Blog wenn du [rock_mongo RockMongo] magst!
 
@@ -59,9 +59,9 @@ http://ifphp.cn/rockmongo/screenshots/show.png
  
  # Das Paket [http://rockmongo.com/downloads downloaden]
  # Paket im Wurzelverzeichnis der Website entpacken
- # Die Datei config.php (index.php vor Version v1.0.5) mit einem beliebigen Texteditor öffnen und die Parameter anpassen
+ # Die Datei config.php mit einem beliebigen Texteditor öffnen und die Parameter anpassen
  # Nun die index.php im Browser öffnen (z.B. http://localhost/rockmongo/index.php)...
- # ... und mit dem eingestellten Admin-Usernamen und -passwort einloggen (Benutzername: admin, Passwort: admin ist standardmäßig vorgegeben)
+ # ... und mit dem eingestellten Admin-Usernamen und -passwort einloggen (Standardeinstellungen: Benutzername: admin, Passwort: admin)
  # spiel mit deiner MongoDB :-)
 
 Tutorials:
