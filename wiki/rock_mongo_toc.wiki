@@ -12,7 +12,7 @@
  * [rock_mongo_es Spanish]
  * [rock_mongo_kr 한국의]
  * *Documents » *
- * [rock_mongo_change_log ChangeLog]
+ * [http://rockmongo.com/wiki/changeLog?lang=en_us ChangeLog]
  * [http://rockmongo.com/wiki/configuration?lang=en_us Configuration]
  * [http://rockmongo.com/wiki/configuration?lang=zh_cn Configuration(配置)]
  * [http://rockmongo.com/wiki/plugin?lang=en_us Plug-in]
