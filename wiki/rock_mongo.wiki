@@ -2,6 +2,5 @@
 #labels Featured
 #sidebar rock_mongo_toc
 
-<wiki:toc/>
 
 = <a href="http://rockmongo.com">We have moved to http://RockMongo.com</a> =
