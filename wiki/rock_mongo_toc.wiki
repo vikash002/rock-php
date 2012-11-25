@@ -17,7 +17,7 @@
  * [http://rockmongo.com/wiki/configuration?lang=zh_cn Configuration(配置)]
  * [http://rockmongo.com/wiki/plugin?lang=en_us Plug-in]
  * [http://rockmongo.com/wiki/faq?lang=en_us FAQ]
- * [http://rockmongo.com/sourceSource Source]
+ * [http://rockmongo.com/source Source]
  * [http://rockmongo.com/wiki/theySays?lang=en_us They Says]
  * [http://rockmongo.com/wiki/relatedProjects?lang=en_us Related Projects]
  * [http://rockmongo.com/donation Donation]
