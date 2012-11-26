@@ -1,16 +1,16 @@
 #summary RockMongo documents side bar
 
  * *Languages » *
- * [rock_mongo English] 
- * [rock_mongo_zh 简体中文] 
- * [rock_mongo_tw 繁體中文] 
- * [rock_mongo_jp 日本語]
- * [rock_mongo_de Deutsch]
- * [rock_mongo_ru Русский]
- * [rock_mongo_fr French]
- * [rock_mongo_br Português]
- * [rock_mongo_es Spanish]
- * [rock_mongo_kr 한국의]
+ * [http://rockmongo.com/wiki/introduction?lang=en_us English] 
+ * [http://rockmongo.com/wiki/introduction?lang=zh_cn 简体中文] 
+ * [http://rockmongo.com/wiki/introduction?lang=zh_tw 繁體中文] 
+ * [http://rockmongo.com/wiki/introduction?lang=ja_jp 日本語]
+ * [http://rockmongo.com/wiki/introduction?lang=de_de Deutsch]
+ * [http://rockmongo.com/wiki/introduction?lang=ru_ru Русский]
+ * [http://rockmongo.com/wiki/introduction?lang=fr_fr French]
+ * [http://rockmongo.com/wiki/introduction?lang=pt_br Português]
+ * [http://rockmongo.com/wiki/introduction?lang=es_es Spanish]
+ * [http://rockmongo.com/wiki/introduction?lang=kr_kr 한국의]
  * *Documents » *
  * [http://rockmongo.com/wiki/changeLog?lang=en_us ChangeLog]
  * [http://rockmongo.com/wiki/configuration?lang=en_us Configuration]
