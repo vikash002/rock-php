@@ -3,6 +3,8 @@
 
 <wiki:toc/>
 
+= [http://rockmongo.com/wiki/introduction?lang=zh_cn 点这里访问新的文档] =
+
 = 安装 =
 
 == 需求 ==
