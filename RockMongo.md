@@ -1,0 +1,1 @@
+Please click menu items on the left hand to start.
